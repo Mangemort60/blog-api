@@ -1,3 +1,4 @@
+const { restart } = require('nodemon');
 const Post = require('../models/postSchema') // import Post model
 
 const postController = {
@@ -19,8 +20,20 @@ const postController = {
 
     getAllPost: async (req, res) => {
         try {
-            const articles = await Post.find();
-            res.json(articles)
+            const posts = await Post.find();
+            res.json(posts)
+        } catch (error) {
+            res.status(500).json({message: 'Une erreur est survenue, veuillez essayer ultérieurement', error})
+        }
+    },
+
+    updatePost: async (req, res) => {
+        try {
+            const postId = req.params.id
+            const newData = req.body
+            const updatedPost = await Post.findByIdAndUpdate(postId, newData)
+            const message = "Le post a bien été mis à jour"
+            res.status(201).json({ message : message, data: updatedPost })
         } catch (error) {
             res.status(500).json({message: 'Une erreur est survenue, veuillez essayer ultérieurement', error})
         }
