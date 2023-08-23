@@ -1,3 +1,10 @@
 const postController = require('../controller/postController')
+const express = require('express')
+const router = express.Router()
 
-app.get('/posts', postController.getAllPost)
+
+// ici middleware si besoin // 
+
+router.get('/', postController.getAllPost)
+
+module.exports = router

@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 const express = require ('express');
 const createPost = require('./routes/createPost');
+const getAllPost = require('./routes/getAllPosts')
 const port = 3000
 
 // instance d'express
@@ -30,4 +31,5 @@ mongoose.connect('mongodb://127.0.0.1:27017/blog', {
 
 // routes
 app.use('/api/post', createPost)
+app.use('/api/posts', getAllPost)
 
