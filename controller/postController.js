@@ -8,10 +8,9 @@ const postController = {
             const postData = req.body;
             console.log(postData);
             const newPost = new Post(postData);
-            const message = "Le post a bien été crée"
             const savedPost = await newPost.save();            
             return res.status(201).json({
-                message, data: savedPost})
+                message: "Le post a bien été crée", data: savedPost})
         
         } catch (error) {
             res.status(500).json({message: 'Une erreur est survenue, veuillez essayer ultérieurement', error})
@@ -31,9 +30,26 @@ const postController = {
         try {
             const postId = req.params.id
             const newData = req.body
-            const updatedPost = await Post.findByIdAndUpdate(postId, newData)
-            const message = "Le post a bien été mis à jour"
-            res.status(201).json({ message : message, data: updatedPost })
+            const updatedPost = await Post.findByIdAndUpdate(postId, newData, {new:true})
+            if(!updatedPost){
+                return res.status(404).json({ message: "Le post n'a pas été trouvé" })
+            }
+            res.status(201).json({ message : "Le post a bien été mis à jour", data: updatedPost })
+        } catch (error) {
+            res.status(500).json({message: 'Une erreur est survenue, veuillez essayer ultérieurement', error})
+        }
+    }, 
+
+    deletePost: async (req, res) => {
+        try {
+            const postId = req.params.id
+            const deletedPost = await Post.findOneAndDelete(postId)
+            console.log(deletedPost);
+            if(!deletedPost){
+                return res.status(404).json({message: "le post n'a pas été trouvé"})
+            }
+            res.status(201).json({message: "les post a bien été supprimé", data: deletedPost})
+
         } catch (error) {
             res.status(500).json({message: 'Une erreur est survenue, veuillez essayer ultérieurement', error})
         }
