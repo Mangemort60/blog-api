@@ -5,6 +5,6 @@ const router = express.Router({mergeParams: true})
 
 // ici middleware si besoin // 
 
-router.post('/:id', postController.updatePost);
+router.get('/:id', postController.getPost)
 
 module.exports = router

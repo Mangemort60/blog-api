@@ -4,6 +4,7 @@ const createPost = require('./routes/post/createPost');
 const getAllPost = require('./routes/post/getAllPosts');
 const updatePost = require('./routes/post/updatePost');
 const deletePost = require('./routes/post/deletePost');
+const getPost = require('./routes/post/getPost');
 const port = 3000
 
 // instance d'express
@@ -32,8 +33,9 @@ mongoose.connect('mongodb://127.0.0.1:27017/blog', {
 .catch( error => console.log(error))
 
 // routes
+app.use('/api/post/get', getPost)
+app.use('/api/post/update', updatePost)
+app.use('/api/post/delete', deletePost)
 app.use('/api/post', createPost)
 app.use('/api/posts', getAllPost)
-app.use('/api/post/:id', updatePost)
-app.use('/api/post/:id', deletePost)
 

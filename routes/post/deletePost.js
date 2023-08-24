@@ -1,10 +1,10 @@
 const postController = require('../../controller/postController')
 const express = require('express')
-const router = express.Router()
+const router = express.Router({mergeParams: true})
 
 
 // ici middleware si besoin // 
 
-router.delete('/', postController.deletePost);
+router.delete('/:id', postController.deletePost);
 
 module.exports = router
