@@ -1,13 +1,17 @@
 const Post = require('../models/postSchema'); // import Post model
+const User = require('../models/userSchema');
 
 const postController = {
   createPost: async (req, res) => {
     try {
       const postData = req.body;
-      console.log(postData);
+      const authorId = req.body.author;
       const newPost = new Post(postData);
       const savedPost = await newPost.save();
-      return res.status(201).json({
+      await User.findByIdAndUpdate(authorId, {
+        $push: { post: savedPost },
+      });
+      res.status(201).json({
         message: 'Le post a bien été crée',
         data: savedPost,
       });
@@ -84,8 +88,11 @@ const postController = {
       if (!deletedPost) {
         return res.status(404).json({ message: "le post n'a pas été trouvé" });
       }
+      await User.findByIdAndUpdate(deletedPost.author, {
+        $pull: { posts: postId },
+      });
       res
-        .status(201)
+        .status(200)
         .json({ message: 'les post a bien été supprimé', data: deletedPost });
     } catch (error) {
       res.status(500).json({

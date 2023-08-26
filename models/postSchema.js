@@ -6,23 +6,23 @@ const postSchema = new Schema({
     type: String,
     required: true,
   },
-  author: {
-    type: Schema.Types.ObjectId,
-    ref: 'User', // author fait référence à la collection User
-    required: true,
-  },
   body: {
     type: String,
     required: true,
   },
   img: {
     type: String, // Stocker l'URL de l'image dans S3
+    required: false,
+  },
+  author: {
+    type: Schema.Types.ObjectId,
+    ref: 'User', // author fait référence à la collection User
     required: true,
   },
   comment: [
     {
       type: Schema.Types.ObjectId,
-      ref: 'Comment',
+      ref: 'Comment', // comment fait référence à la collection Comment
     },
   ],
   date: { type: Date, default: Date.now },
