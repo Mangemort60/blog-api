@@ -19,6 +19,12 @@ const postSchema = new Schema({
     type: String, // Stocker l'URL de l'image dans S3
     required: true,
   },
+  comment: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: 'Comment',
+    },
+  ],
   date: { type: Date, default: Date.now },
   hidden: Boolean,
   meta: {

@@ -3,10 +3,17 @@ const { Schema } = mongoose;
 
 const commentSchema = new Schema({
   body: String,
-  author: String,
+  author: {
+    type: Schema.Types.ObjectId,
+    ref: 'User',
+  },
   headshot: {
     type: String,
     required: false,
+  },
+  post: {
+    type: Schema.Types.ObjectId,
+    ref: 'Post',
   },
   date: Date,
 });
