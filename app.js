@@ -9,6 +9,7 @@ const createComment = require('./routes/comment/createComment');
 const updateComment = require('./routes/comment/updateComment');
 const register = require('./routes/user/register');
 const deleteUser = require('./routes/user/deleteUser');
+const deleteComment = require('./routes/comment/deleteComment');
 const port = 3000;
 
 // instance d'express
@@ -46,6 +47,7 @@ app.use('/api/posts', getAllPost);
 // Comment routes
 app.use('/api/comment', createComment);
 app.use('/api/comment/update', updateComment);
+app.use('/api/comment', deleteComment);
 // User routes
 app.use('/api/user', register);
 app.use('/api/user/delete', deleteUser);

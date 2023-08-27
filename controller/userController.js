@@ -25,7 +25,12 @@ const userController = {
       res
         .status(201)
         .json({ message: 'user a bien été supprimée', data: deletedUser });
-    } catch (error) {}
+    } catch (error) {
+      res.status(500).json({
+        message: 'Une erreur est survenue, veuillez essayer ultérieurement',
+        error,
+      });
+    }
   },
 };
 
