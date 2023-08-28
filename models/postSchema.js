@@ -1,5 +1,16 @@
 const mongoose = require('mongoose');
+const Joi = require('joi');
 const { Schema } = mongoose;
+
+const postValidationSchema = Joi.object({
+  title: Joi.string().min(3).max(100).required(),
+  body: Joi.string().min(20).max(10000).required(),
+});
+
+const updateValidationSchema = Joi.object({
+  title: Joi.string().min(3).max(100),
+  body: Joi.string().min(20).max(10000),
+});
 
 const postSchema = new Schema({
   title: {
@@ -35,4 +46,4 @@ const postSchema = new Schema({
 
 const Post = mongoose.model('Post', postSchema);
 
-module.exports = Post;
+module.exports = { Post, postValidationSchema, updateValidationSchema };

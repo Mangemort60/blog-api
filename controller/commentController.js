@@ -1,24 +1,44 @@
-const Comment = require('../models/commentSchema');
-const Post = require('../models/postSchema');
+const {
+  Comment,
+  postValidationSchema,
+  updateValidationSchema,
+} = require('../models/commentSchema');
+const { Post } = require('../models/postSchema');
 
 const commentController = {
   createComment: async (req, res) => {
     try {
       const postId = req.body.post;
-      const commentDate = new Date();
-      const newComment = {
-        date: commentDate,
-        ...req.body,
-      };
+      const post = await Post.findById(postId);
+
+      if (!post) {
+        return res.status(404).json({
+          message: "le poste que vous souhaitez commenter n'existe pas",
+        });
+      }
+
+      const newComment = req.body;
+      const { error } = postValidationSchema.validate(req.body, {
+        allowUnknown: true,
+      });
+
+      if (error) {
+        return res.status(400).send(error.message);
+      }
+
       const createdComment = await Comment.create(newComment);
-      await Post.findByIdAndUpdate(postId, {
+      const updatedPost = await Post.findByIdAndUpdate(postId, {
         $push: { comment: createdComment },
       });
-      res.status(201).json({
-        message: 'le commentaire a bien été crée',
-        data: createdComment,
-      });
+
+      if (updatedPost) {
+        return res.status(201).json({
+          message: 'le commentaire a bien été crée',
+          data: createdComment,
+        });
+      }
     } catch (error) {
+      console.log('erreur detaillée: ', error);
       res.status(500).json({
         message: 'Une erreur est survenue, veuillez essayer ultérieurement',
         error,
@@ -29,12 +49,20 @@ const commentController = {
     try {
       const commentId = req.params.id;
       const userId = req.body.author;
-      const comment = await Comment.findById(commentId);
       const newData = req.body;
+      const comment = await Comment.findById(commentId);
+
       if (!comment) {
         return res
           .status(404)
           .json({ message: "le commentaire n'a pas été trouvé" });
+      }
+
+      const { error } = updateValidationSchema.validate(req.body, {
+        allowUnknown: true,
+      });
+      if (error) {
+        return res.status(400).send(error.message);
       }
       if (userId !== comment.author.toString()) {
         return res.status(403).json({

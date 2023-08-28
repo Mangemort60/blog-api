@@ -1,4 +1,8 @@
-const Post = require('../models/postSchema'); // import Post model
+const {
+  Post,
+  postValidationSchema,
+  updateValidationSchema,
+} = require('../models/postSchema'); // import Post model
 const User = require('../models/userSchema');
 
 const postController = {
@@ -7,6 +11,10 @@ const postController = {
       const postData = req.body;
       const authorId = req.body.author;
       const newPost = new Post(postData);
+      const { error } = postValidationSchema.validate(req.body);
+      if (error) {
+        return res.status(400).send(error.message);
+      }
       const savedPost = await newPost.save();
       await User.findByIdAndUpdate(authorId, {
         $push: { post: savedPost },
@@ -60,8 +68,13 @@ const postController = {
     try {
       const postId = req.params.id;
       const userId = req.body.author;
-      console.log('updated postId: ', postId);
       const newData = req.body;
+      const { error } = updateValidationSchema.validate(req.body, {
+        allowUnknown: true,
+      });
+      if (error) {
+        return res.status(400).send(error.message);
+      }
       const post = await Post.findById(postId);
       if (!post) {
         return res
