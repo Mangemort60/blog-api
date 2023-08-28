@@ -59,18 +59,26 @@ const postController = {
   updatePost: async (req, res) => {
     try {
       const postId = req.params.id;
+      const userId = req.body.author;
       console.log('updated postId: ', postId);
       const newData = req.body;
-      const updatedPost = await Post.findByIdAndUpdate(postId, newData, {
-        new: true,
-      });
-      if (!updatedPost) {
+      const post = await Post.findById(postId);
+      if (!post) {
         return res
           .status(404)
           .json({ message: "Le post n'a pas été trouvé !!" });
       }
+      if (userId !== post.author.toString()) {
+        return res.status(403).json({
+          message: "vous n'avez pas l'autorisation de mettre à jour ce post",
+          data: post,
+        });
+      }
+      const updatedPost = await Post.findByIdAndUpdate(postId, newData, {
+        new: true,
+      });
       res
-        .status(201)
+        .status(200)
         .json({ message: 'Le post a bien été mis à jour', data: updatedPost });
     } catch (error) {
       res.status(500).json({
@@ -83,11 +91,17 @@ const postController = {
   deletePost: async (req, res) => {
     try {
       const postId = req.params.id;
-      const deletedPost = await Post.findOneAndDelete(postId);
-      console.log(deletedPost);
-      if (!deletedPost) {
+      const userId = req.params.author;
+      const post = await Post.findById(postId);
+      if (!post) {
         return res.status(404).json({ message: "le post n'a pas été trouvé" });
       }
+      if (userId !== post.author.toString()) {
+        return res
+          .status(404)
+          .json({ mesage: "vous n'êtes pas autorisé à supprimer ce post" });
+      }
+      const deletedPost = await Post.findByIdAndDelete(postId);
       await User.findByIdAndUpdate(deletedPost.author, {
         $pull: { posts: postId },
       });

@@ -37,16 +37,20 @@ const commentController = {
           .json({ message: "le commentaire n'a pas été trouvé" });
       }
       if (userId !== comment.author.toString()) {
-        return res.status(500).json({
+        return res.status(403).json({
           message: "vous n'êtes pas autorisé à mettre à jour ce commentaire",
         });
       }
-      const updatedPost = await Comment.findByIdAndUpdate(commentId, newData, {
-        new: true,
-      });
+      const updatedComment = await Comment.findByIdAndUpdate(
+        commentId,
+        newData,
+        {
+          new: true,
+        }
+      );
       res.status(200).json({
         message: 'le commentaire a bien été mis à jour',
-        data: updatedPost,
+        data: updatedComment,
       });
     } catch (error) {
       res.status(500).json({
@@ -73,7 +77,7 @@ const commentController = {
             "vous n'avez pas l'autorisation pour supprimer ce commentaire",
         });
       } else {
-        const deletedComment = await Comment.findOneAndDelete(commentId);
+        const deletedComment = await Comment.findByIdAndDelete(commentId);
         await Post.findByIdAndUpdate(deletedComment.post, {
           $pull: { comment: commentId },
         });
