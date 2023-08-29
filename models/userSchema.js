@@ -1,12 +1,32 @@
 const mongoose = require('mongoose');
 const { Schema } = require('mongoose');
+const Joi = require('joi');
+const uniqueValidator = require('mongoose-unique-validator');
+
+const registerValidationSchema = Joi.object({
+  email: Joi.string().email().required(),
+  password: Joi.string().min(6).alphanum().required(),
+  pseudo: Joi.string().min(3).max(15).required(),
+});
 
 const userSchema = new Schema({
-  email: String,
+  email: {
+    type: String,
+    unique: true,
+  },
   password: String,
-  pseudo: String,
-  isAuthor: Boolean,
-  isAdmin: Boolean,
+  pseudo: {
+    type: String,
+    unique: true,
+  },
+  isAuthor: {
+    type: Boolean,
+    default: false,
+  },
+  isAdmin: {
+    type: Boolean,
+    default: false,
+  },
   post: [
     {
       type: Schema.Types.ObjectId,
@@ -17,4 +37,8 @@ const userSchema = new Schema({
 
 const User = mongoose.model('User', userSchema);
 
-module.exports = User;
+userSchema.plugin(uniqueValidator, {
+  message: 'Error, expected {PATH} to be unique !',
+});
+
+module.exports = { User, registerValidationSchema };

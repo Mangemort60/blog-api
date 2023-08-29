@@ -1,10 +1,18 @@
-const User = require('../models/userSchema');
+const { MongooseError } = require('mongoose');
+const { User, registerValidationSchema } = require('../models/userSchema');
 
 const userController = {
   register: async (req, res) => {
     try {
       const newUser = req.body;
       const createdUser = await User.create(newUser);
+      const { error } = registerValidationSchema.validate(req.body, {
+        allowUnknown: true,
+      });
+      if (error) {
+        return res.status(400).send(error.message);
+      }
+
       res
         .status(200)
         .json({ message: 'user a bien été crée', data: createdUser });

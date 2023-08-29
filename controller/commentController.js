@@ -64,6 +64,7 @@ const commentController = {
       if (error) {
         return res.status(400).send(error.message);
       }
+
       if (userId !== comment.author.toString()) {
         return res.status(403).json({
           message: "vous n'êtes pas autorisé à mettre à jour ce commentaire",
