@@ -9,6 +9,12 @@ const registerValidationSchema = Joi.object({
   pseudo: Joi.string().min(3).max(15).required(),
 });
 
+const loginValidationSchema = Joi.object({
+  email: Joi.string().email().required(),
+  password: Joi.string().min(6).alphanum().required(),
+  pseudo: Joi.string().min(3).max(15).required(),
+});
+
 const userSchema = new Schema({
   email: {
     type: String,
@@ -41,4 +47,4 @@ userSchema.plugin(uniqueValidator, {
   message: 'Error, expected {PATH} to be unique !',
 });
 
-module.exports = { User, registerValidationSchema };
+module.exports = { User, registerValidationSchema, loginValidationSchema };
