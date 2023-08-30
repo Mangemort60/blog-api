@@ -36,20 +36,20 @@ Il s'agit d'une API pour un blog construit avec la MERN Stack. Cette API permet 
 
 ### Articles de blog
 
-- `GET /api/post/get` : Obtenir un article spécifique
+- `GET /api/post/get/:id` : Obtenir un article spécifique
 - `POST /api/post` : Créer un nouvel article
 - `GET /api/posts` : Obtenir tous les articles
-- `PUT /api/post/update` : Mettre à jour un article existant
-- `DELETE /api/post/delete` : Supprimer un article
+- `PUT /api/post/update/:id` : Mettre à jour un article existant
+- `DELETE /api/post/delete/:id` : Supprimer un article
 
 ### Commentaires
 
 - `POST /api/comment` : Créer un nouveau commentaire
-- `PUT /api/comment/update` : Mettre à jour un commentaire existant
-- `DELETE /api/comment/delete` : Supprimer un commentaire
+- `PUT /api/comment/update/:id` : Mettre à jour un commentaire existant
+- `DELETE /api/comment/delete/:id` : Supprimer un commentaire
 
 ### Utilisateurs
 
 - `POST /api/user` : S'inscrire en tant qu'utilisateur
 - `POST /api/user/login` : Se connecter en tant qu'utilisateur
-- `DELETE /api/user/delete` : Supprimer un utilisateur
+- `DELETE /api/user/delete/:id` : Supprimer un utilisateur
