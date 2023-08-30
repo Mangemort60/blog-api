@@ -1,0 +1,2 @@
+{"level":"info","message":"Le post a bien été créé","service":"user-service"}
+{"level":"warn","message":"Tentative de suppression d'un utilisateur inexistant","service":"user-service"}
