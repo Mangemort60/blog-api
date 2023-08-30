@@ -48,7 +48,7 @@ app.use('/api/posts', getAllPost);
 // Comment routes
 app.use('/api/comment', createComment);
 app.use('/api/comment/update', updateComment);
-app.use('/api/comment', deleteComment);
+app.use('/api/comment/delete', deleteComment);
 // User routes
 app.use('/api/user', register);
 app.use('/api/user/delete', deleteUser);
