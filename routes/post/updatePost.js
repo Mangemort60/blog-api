@@ -1,10 +1,10 @@
-const postController = require('../../controller/postController')
-const express = require('express')
-const router = express.Router({mergeParams: true})
+const postController = require('../../controller/postController');
+const express = require('express');
+const router = express.Router({ mergeParams: true });
+const authenticateJWT = require('../../middleware/authenticateJwt');
 
+// ici middleware si besoin //
 
-// ici middleware si besoin // 
+router.post('/:id', authenticateJWT, postController.updatePost);
 
-router.post('/:id', postController.updatePost);
-
-module.exports = router
+module.exports = router;

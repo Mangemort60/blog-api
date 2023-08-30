@@ -10,6 +10,7 @@ const updateComment = require('./routes/comment/updateComment');
 const register = require('./routes/user/register');
 const deleteUser = require('./routes/user/deleteUser');
 const deleteComment = require('./routes/comment/deleteComment');
+const login = require('./routes/user/login');
 const port = 3000;
 
 // instance d'express
@@ -51,3 +52,4 @@ app.use('/api/comment', deleteComment);
 // User routes
 app.use('/api/user', register);
 app.use('/api/user/delete', deleteUser);
+app.use('/api/user/login', login);

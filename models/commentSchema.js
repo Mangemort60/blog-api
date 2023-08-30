@@ -4,6 +4,7 @@ const { Schema } = mongoose;
 
 const postValidationSchema = Joi.object({
   body: Joi.string().min(100).max(10000).required(),
+  post: Joi.string().required(),
 });
 
 const updateValidationSchema = Joi.object({
@@ -21,8 +22,8 @@ const commentSchema = new Schema({
     required: false,
   },
   post: {
-    type: Schema.Types.ObjectId,
-    ref: 'Post',
+    type: String,
+    required: true,
   },
   date: { type: Date, default: Date.now },
 });

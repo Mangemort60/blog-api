@@ -6,6 +6,7 @@ const {
 } = require('../models/userSchema');
 const bcrypt = require('bcrypt');
 const private_Key = require('../middleware/private_key');
+const jwt = require('jsonwebtoken');
 
 const userController = {
   register: async (req, res) => {
@@ -92,6 +93,7 @@ const userController = {
       });
       return res.status(200).json({ token });
     } catch (error) {
+      console.log(error);
       return res.status(500).json({
         message: 'Une erreur est survenue, veuillez essayer ultérieurement.',
         error,

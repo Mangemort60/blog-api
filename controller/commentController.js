@@ -16,17 +16,16 @@ const commentController = {
           message: "le poste que vous souhaitez commenter n'existe pas",
         });
       }
-
-      const newComment = req.body;
-      const { error } = postValidationSchema.validate(req.body, {
-        allowUnknown: true,
-      });
+      const newComment = { ...req.body, author: req.user.userId };
+      const { error } = postValidationSchema.validate(req.body);
 
       if (error) {
+        console.log(error);
         return res.status(400).send(error.message);
       }
 
       const createdComment = await Comment.create(newComment);
+      console.log(createdComment);
       const updatedPost = await Post.findByIdAndUpdate(postId, {
         $push: { comment: createdComment },
       });
@@ -48,24 +47,20 @@ const commentController = {
   updateComment: async (req, res) => {
     try {
       const commentId = req.params.id;
-      const userId = req.body.author;
       const newData = req.body;
       const comment = await Comment.findById(commentId);
-
       if (!comment) {
         return res
           .status(404)
           .json({ message: "le commentaire n'a pas été trouvé" });
       }
-
       const { error } = updateValidationSchema.validate(req.body, {
         allowUnknown: true,
       });
       if (error) {
         return res.status(400).send(error.message);
       }
-
-      if (userId !== comment.author.toString()) {
+      if (req.user.userId !== comment.author.toString()) {
         return res.status(403).json({
           message: "vous n'êtes pas autorisé à mettre à jour ce commentaire",
         });
@@ -91,16 +86,13 @@ const commentController = {
   deleteComment: async (req, res) => {
     try {
       const commentId = req.params.id;
-      const userId = req.params.author;
-      console.log(`comment ID : ${commentId},
-      userId : ${userId}`);
       const commentToDelete = await Comment.findOne({ _id: commentId });
       if (!commentToDelete) {
         return res.status(404).json({
           message: "le commentaire n'a pas été trouvé",
         });
       }
-      if (userId !== commentToDelete.author.toString()) {
+      if (req.user.userId !== commentToDelete.author.toString()) {
         return res.status(500).json({
           message:
             "vous n'avez pas l'autorisation pour supprimer ce commentaire",

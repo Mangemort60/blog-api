@@ -3,27 +3,28 @@ const {
   postValidationSchema,
   updateValidationSchema,
 } = require('../models/postSchema'); // import Post model
-const User = require('../models/userSchema');
+const { User } = require('../models/userSchema');
 
 const postController = {
   createPost: async (req, res) => {
     try {
       const postData = req.body;
-      const authorId = req.body.author;
-      const newPost = new Post(postData);
-      const { error } = postValidationSchema.validate(req.body);
+      const { error } = postValidationSchema.validate(req.body, {
+        allowUnknown: true,
+      });
       if (error) {
         return res.status(400).send(error.message);
       }
-      const savedPost = await newPost.save();
-      await User.findByIdAndUpdate(authorId, {
-        $push: { post: savedPost },
+      const createdPost = await Post.create(postData);
+      await User.findByIdAndUpdate(req.user.userId, {
+        $push: { post: createdPost },
       });
       res.status(201).json({
         message: 'Le post a bien été crée',
-        data: savedPost,
+        data: createdPost,
       });
     } catch (error) {
+      console.log(error);
       res.status(500).json({
         message: 'Une erreur est survenue, veuillez essayer ultérieurement',
         error,
@@ -34,7 +35,7 @@ const postController = {
   getAllPost: async (req, res) => {
     try {
       const posts = await Post.find();
-      res.json(posts);
+      res.status(200).json(posts);
     } catch (error) {
       res.status(500).json({
         message: 'Une erreur est survenue, veuillez essayer ultérieurement',
