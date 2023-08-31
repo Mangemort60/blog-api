@@ -7,6 +7,7 @@ const {
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const logger = require('../config/logger');
+const { log } = require('winston');
 const private_key = process.env.PRIVATE_KEY;
 
 const userController = {
@@ -105,6 +106,43 @@ const userController = {
       return res
         .status(200)
         .json({ message: `${user.email} est bien connecté`, token });
+    } catch (error) {
+      console.log(error);
+      logger.error("Erreur lors de la connexion d'un utilisateur");
+      return res.status(500).json({
+        message: 'Une erreur est survenue, veuillez essayer ultérieurement.',
+        error,
+      });
+    }
+  },
+  updateUser: async (req, res) => {
+    try {
+      const userIdToUpdate = req.params.id;
+      const userAdminId = req.user.userId;
+      const newData = req.body;
+
+      const userToUpdate = await User.findById(userIdToUpdate);
+      if (!userToUpdate) {
+        logger.warn("Tentative de mise à jour d'un utilisateur inexistant");
+        return res
+          .status(404)
+          .json({ message: "l'utilisateur n'a pas été trouvé" });
+      }
+
+      const userAdmin = await User.findById(userAdminId);
+      console.log(userAdmin.isAdmin);
+
+      if (userAdmin.isAdmin) {
+        const updatedUser = await User.findByIdAndUpdate(
+          userIdToUpdate,
+          newData,
+          { new: true }
+        );
+        res.status(200).json({
+          message: "l'utilisateur a bien été mis à jour",
+          data: updatedUser,
+        });
+      }
     } catch (error) {
       console.log(error);
       logger.error("Erreur lors de la connexion d'un utilisateur");

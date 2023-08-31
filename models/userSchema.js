@@ -46,4 +46,8 @@ userSchema.plugin(uniqueValidator, {
   message: 'Error, expected {PATH} to be unique !',
 });
 
-module.exports = { User, registerValidationSchema, loginValidationSchema };
+module.exports = {
+  User,
+  registerValidationSchema,
+  loginValidationSchema,
+};

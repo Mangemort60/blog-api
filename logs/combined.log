@@ -49,3 +49,16 @@
 {"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 14:49:45"}
 {"level":"info","message":"Utilisateur haggf@gmail.com supprimé avec succès","service":"user-service","timestamp":"2023-08-31 14:49:45"}
 {"level":"info","message":"Utilisateur neila@gmail.com créé avec succès","service":"user-service","timestamp":"2023-08-31 14:50:06"}
+{"level":"info","message":"Utilisateur snake@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-08-31 19:24:00"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-08-31 19:25:50"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 19:26:25"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 19:26:59"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 19:27:15"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 19:28:21"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 19:28:47"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 19:31:32"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 19:32:17"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 20:19:01"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 20:29:46"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 20:30:01"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 20:32:34"}
