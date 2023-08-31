@@ -11,33 +11,42 @@ const register = require('./routes/user/register');
 const deleteUser = require('./routes/user/deleteUser');
 const deleteComment = require('./routes/comment/deleteComment');
 const login = require('./routes/user/login');
-const port = 3000;
+const cors = require('cors');
+const { log } = require('winston');
 
 // instance d'express
 const app = express();
+const port = process.env.PORT || 3000;
 
 // middleware
 app.use(express.json());
+app.use(cors());
 
 //requête get pour hello world
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
+const env = process.env.NODE_ENV;
 // connexion
-mongoose
-  .connect('mongodb://127.0.0.1:27017/blog', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then(() => {
-    console.log('Connected to the database');
-    // Lancer le serveur Express
-    app.listen(port, () => {
-      console.log(`listening on port http://localhost:${port}/`);
-    });
-  })
-  .catch((error) => console.log(error));
+
+if (env === 'production') {
+  console.log(env);
+} else {
+  mongoose
+    .connect('mongodb://127.0.0.1:27017/blog', {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    })
+    .then(() => {
+      console.log('Connected to the database');
+      // Lancer le serveur Express
+      app.listen(port, () => {
+        console.log(`listening on port http://localhost:${port}/`);
+      });
+    })
+    .catch((error) => console.log(error));
+}
 
 // Post routes
 app.use('/api/post/get', getPost);

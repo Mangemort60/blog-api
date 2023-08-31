@@ -5,9 +5,9 @@ const {
   loginValidationSchema,
 } = require('../models/userSchema');
 const bcrypt = require('bcrypt');
-const private_Key = require('../middleware/private_key');
 const jwt = require('jsonwebtoken');
 const logger = require('../config/logger');
+const private_key = process.env.PRIVATE_KEY;
 
 const userController = {
   register: async (req, res) => {
@@ -98,7 +98,7 @@ const userController = {
         logger.warn('Tentative de connexion avec un mot de passe incorrect');
         return res.status(401).json({ message: 'Mot de passe incorrect' });
       }
-      const token = jwt.sign({ userId: user.id }, private_Key, {
+      const token = jwt.sign({ userId: user.id }, private_key, {
         expiresIn: '24h',
       });
       logger.info(`Utilisateur ${user.email} connecté avec succès`);

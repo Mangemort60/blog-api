@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const private_key = require('../middleware/private_key');
+const private_key = process.env.PRIVATE_KEY;
 
 const authenticateJWT = (req, res, next) => {
   try {
