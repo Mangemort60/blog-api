@@ -53,3 +53,4 @@ Il s'agit d'une API pour un blog construit avec la MERN Stack. Cette API permet 
 - `POST /api/user` : S'inscrire en tant qu'utilisateur
 - `POST /api/user/login` : Se connecter en tant qu'utilisateur
 - `DELETE /api/user/delete/:id` : Supprimer un utilisateur
+- `UPDATE /api/user/update/:id` : Mettre à jour un utilisateur
