@@ -3,3 +3,17 @@
 {"level":"warn","message":"Tentative de suppression d'un utilisateur inexistant","service":"user-service"}
 {"level":"warn","message":"Tentative de suppression d'un utilisateur inexistant","service":"user-service"}
 {"level":"warn","message":"Tentative de suppression d'un utilisateur inexistant","service":"user-service","timestamp":"2023-08-30 20:34:42"}
+{"level":"error","message":"Erreur lors de la connexion d'un utilisateur","service":"user-service","timestamp":"2023-08-31 13:32:21"}
+{"level":"warn","message":"Échec de la validation lors de la tentative de connexion","service":"user-service","timestamp":"2023-08-31 13:33:22"}
+{"level":"error","message":"Erreur lors de la connexion d'un utilisateur","service":"user-service","timestamp":"2023-08-31 13:33:30"}
+{"level":"error","message":"Erreur lors de la connexion d'un utilisateur","service":"user-service","timestamp":"2023-08-31 13:34:13"}
+{"level":"error","message":"Erreur lors de la connexion d'un utilisateur","service":"user-service","timestamp":"2023-08-31 13:36:38"}
+{"level":"error","message":"Erreur lors de la connexion d'un utilisateur","service":"user-service","timestamp":"2023-08-31 13:37:25"}
+{"level":"error","message":"Erreur lors de la connexion d'un utilisateur","service":"user-service","timestamp":"2023-08-31 13:37:43"}
+{"level":"error","message":"Erreur lors de la connexion d'un utilisateur","service":"user-service","timestamp":"2023-08-31 13:38:40"}
+{"level":"error","message":"Erreur lors de la connexion d'un utilisateur","service":"user-service","timestamp":"2023-08-31 13:43:12"}
+{"level":"error","message":"Erreur lors de la connexion d'un utilisateur","service":"user-service","timestamp":"2023-08-31 13:43:32"}
+{"level":"error","message":"Erreur lors de la connexion d'un utilisateur","service":"user-service","timestamp":"2023-08-31 13:44:11"}
+{"level":"info","message":"Utilisateur snake@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-08-31 13:45:59"}
+{"level":"info","message":"Le post a bien été créé","service":"user-service","timestamp":"2023-08-31 14:36:50"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-08-31 14:37:02"}

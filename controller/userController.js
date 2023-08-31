@@ -106,6 +106,7 @@ const userController = {
         .status(200)
         .json({ message: `${user.email} est bien connecté`, token });
     } catch (error) {
+      console.log(error);
       logger.error("Erreur lors de la connexion d'un utilisateur");
       return res.status(500).json({
         message: 'Une erreur est survenue, veuillez essayer ultérieurement.',

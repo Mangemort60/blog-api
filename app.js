@@ -1,3 +1,4 @@
+require('dotenv').config();
 const mongoose = require('mongoose');
 const express = require('express');
 const createPost = require('./routes/post/createPost');
@@ -16,7 +17,6 @@ const { log } = require('winston');
 
 // instance d'express
 const app = express();
-const port = process.env.PORT || 3000;
 
 // middleware
 app.use(express.json());
@@ -27,26 +27,30 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-const env = process.env.NODE_ENV;
-// connexion
+const isDev = () => process.env.NODE_ENV === 'development';
 
-if (env === 'production') {
-  console.log(env);
-} else {
-  mongoose
-    .connect('mongodb://127.0.0.1:27017/blog', {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    })
-    .then(() => {
-      console.log('Connected to the database');
-      // Lancer le serveur Express
-      app.listen(port, () => {
-        console.log(`listening on port http://localhost:${port}/`);
-      });
-    })
-    .catch((error) => console.log(error));
+async function connectDb(url) {
+  mongoose.connect(url, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  });
+  console.log('Connected to database');
 }
+
+const startServer = (port) =>
+  app.listen(port, () => {
+    console.log(`listening on port http://localhost:${port}/`);
+  });
+
+async function main() {
+  if (isDev()) {
+    await connectDb('mongodb://127.0.0.1:27017/blog');
+    return startServer(process.env.PORT ?? 3000);
+  }
+  console.log('production env');
+}
+
+main().catch((error) => console.error(error));
 
 // Post routes
 app.use('/api/post/get', getPost);
