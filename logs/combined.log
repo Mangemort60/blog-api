@@ -17,3 +17,35 @@
 {"level":"info","message":"Utilisateur snake@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-08-31 13:45:59"}
 {"level":"info","message":"Le post a bien été créé","service":"user-service","timestamp":"2023-08-31 14:36:50"}
 {"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-08-31 14:37:02"}
+{"level":"error","message":"Token invalide","service":"user-service","timestamp":"2023-08-31 14:41:31"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 14:41:54"}
+{"level":"warn","message":"Tentative de mise à jour non autorisée","service":"user-service","timestamp":"2023-08-31 14:41:54"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 14:42:30"}
+{"level":"warn","message":"Tentative de mise à jour non autorisée","service":"user-service","timestamp":"2023-08-31 14:42:30"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 14:43:57"}
+{"level":"info","message":"Post ID 64ef85c7c7a8f12ad82c4d0a mis à jour","service":"user-service","timestamp":"2023-08-31 14:43:57"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 14:44:38"}
+{"level":"info","message":"Post ID 64ef85c7c7a8f12ad82c4d0a supprimé avec succès","service":"user-service","timestamp":"2023-08-31 14:44:38"}
+{"level":"info","message":"Récupération du post ID 64ef53cbaf6d15f4f5fa386c réussie","service":"user-service","timestamp":"2023-08-31 14:45:26"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 14:45:54"}
+{"level":"info","message":"Nouveau commentaire créé","service":"user-service","timestamp":"2023-08-31 14:45:54"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 14:46:45"}
+{"level":"warn","message":"Tentative de suppression non autorisée","service":"user-service","timestamp":"2023-08-31 14:46:45"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 14:46:56"}
+{"level":"info","message":"Commentaire ID 64f08b82b10d9e782f04dfed supprimé","service":"user-service","timestamp":"2023-08-31 14:46:56"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 14:47:47"}
+{"level":"warn","message":"Échec de la validation à la mise à jour: \"body\" length must be at least 100 characters long","service":"user-service","timestamp":"2023-08-31 14:47:47"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 14:48:00"}
+{"level":"warn","message":"Tentative de mise à jour non autorisée","service":"user-service","timestamp":"2023-08-31 14:48:00"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 14:48:11"}
+{"level":"warn","message":"Commentaire ID 64f08b82b10d9e782f04dfed introuvable","service":"user-service","timestamp":"2023-08-31 14:48:11"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 14:48:38"}
+{"level":"warn","message":"Commentaire ID 64f08b82b10d9e782f04dfed introuvable","service":"user-service","timestamp":"2023-08-31 14:48:38"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 14:48:59"}
+{"level":"info","message":"Nouveau commentaire créé","service":"user-service","timestamp":"2023-08-31 14:48:59"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 14:49:16"}
+{"level":"info","message":"Commentaire ID 64f08c3bb10d9e782f04dff9 mis à jour","service":"user-service","timestamp":"2023-08-31 14:49:16"}
+{"level":"error","message":"Token invalide","service":"user-service","timestamp":"2023-08-31 14:49:31"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 14:49:45"}
+{"level":"info","message":"Utilisateur haggf@gmail.com supprimé avec succès","service":"user-service","timestamp":"2023-08-31 14:49:45"}
+{"level":"info","message":"Utilisateur neila@gmail.com créé avec succès","service":"user-service","timestamp":"2023-08-31 14:50:06"}
