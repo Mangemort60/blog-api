@@ -1,3 +1,4 @@
+const s3 = require('../config/aws-config');
 const {
   Post,
   postValidationSchema,
@@ -5,6 +6,9 @@ const {
 } = require('../models/postSchema'); // import Post model
 const { User } = require('../models/userSchema');
 const logger = require('../config/logger');
+const formidable = require('formidable');
+const fs = require('fs');
+const { PutObjectCommand } = require('@aws-sdk/client-s3');
 
 const postController = {
   createPost: async (req, res) => {
@@ -35,6 +39,66 @@ const postController = {
         error,
       });
     }
+  },
+
+  uploadImage: async (req, res) => {
+    console.log('Début de la fonction uploadImage.');
+
+    const form = new formidable.IncomingForm();
+
+    form.parse(req, async (err, fields, files) => {
+      console.log('Formidable a terminé le parsing.');
+
+      if (err) {
+        console.log('Erreur pendant le parsing: ', err);
+        return res.status(400).json({ error: err.message });
+      }
+
+      const fileName = files.img[0].originalFilename;
+      const fileType = files.img[0].mimetype;
+      console.log(`Nom de fichier: ${fileName}, Type de fichier: ${fileType}`);
+
+      const fileStream = fs.createReadStream(files.img[0].filepath);
+      console.log('Flux de fichier créé.');
+
+      const params = {
+        Bucket: 'blog.mern',
+        Key: fileName,
+        Body: fileStream,
+        ContentType: fileType,
+      };
+
+      try {
+        console.log("Tentative d'upload sur S3.");
+        const uploadResult = await s3.send(new PutObjectCommand(params));
+        console.log('Upload réussi. Résultat: ', uploadResult);
+
+        const postId = req.params.id;
+        console.log(`Recherche du post avec l'ID: ${postId}`);
+
+        const post = await Post.findById(postId);
+        if (!post) {
+          console.log('Post non trouvé.');
+          return res.status(404).send('Post non trouvé');
+        }
+        console.log('Post trouvé.');
+
+        post.img = uploadResult.Location;
+        await post.save();
+        console.log('Image URL sauvegardée dans le post.');
+
+        res.send({
+          message: 'Upload réussi',
+          imageUrl: uploadResult.Location,
+        });
+      } catch (error) {
+        console.log(
+          "Erreur pendant l'upload ou la sauvegarde du post: ",
+          error
+        );
+        res.status(500).json(error);
+      }
+    });
   },
 
   getAllPost: async (req, res) => {

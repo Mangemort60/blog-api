@@ -62,3 +62,106 @@
 {"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 20:29:46"}
 {"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 20:30:01"}
 {"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-08-31 20:32:34"}
+{"level":"info","message":"Utilisateur snake@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-01 10:53:43"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-01 10:54:26"}
+{"level":"info","message":"Le post a bien été créé","service":"user-service","timestamp":"2023-09-01 10:54:26"}
+{"level":"error","message":"Le token a expiré","service":"user-service","timestamp":"2023-09-02 12:44:42"}
+{"level":"info","message":"Utilisateur snake@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-02 12:44:52"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 12:45:06"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 12:47:05"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 12:47:46"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 12:52:28"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 12:53:41"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 12:55:03"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 12:56:22"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 12:58:23"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 12:59:25"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 13:00:16"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 13:00:53"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 13:03:04"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 14:11:11"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 14:12:19"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 14:13:18"}
+{"level":"info","message":"Utilisateur snake@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-02 14:15:33"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 14:17:26"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 14:21:33"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 14:21:52"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 14:25:19"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 14:26:31"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 14:31:50"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 14:35:48"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 14:37:09"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 14:38:28"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 14:38:41"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 14:39:24"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 15:32:29"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 15:33:30"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 15:35:51"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 15:43:41"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 15:45:09"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 15:45:30"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 15:46:05"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 15:46:31"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 15:47:54"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 15:48:38"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 15:49:19"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 15:50:40"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 15:51:06"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 15:51:41"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 15:53:08"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 15:54:42"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 16:01:00"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 16:05:05"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 16:10:53"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 16:15:14"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 16:17:52"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 16:23:08"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 16:23:23"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 16:23:44"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 16:25:42"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 16:26:18"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 16:26:29"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 16:27:02"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 16:39:27"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 16:39:42"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 16:41:44"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 16:42:04"}
+{"level":"info","message":"Utilisateur snake@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-02 16:43:31"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 16:43:43"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 16:44:54"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 16:49:38"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:00:52"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:01:23"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:03:28"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:04:27"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:05:48"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:06:10"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:06:19"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:06:36"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:07:03"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:07:29"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:07:56"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:08:17"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:08:30"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:08:41"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:09:09"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:09:44"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:13:40"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:14:25"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:15:23"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:16:49"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:17:43"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:18:13"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:18:21"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:19:09"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:20:15"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:23:03"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:23:34"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:24:47"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 17:27:49"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 19:09:03"}
+{"level":"warn","message":"Échec de la validation à la création: \"title\" is required","service":"user-service","timestamp":"2023-09-02 19:09:03"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 19:09:22"}
+{"level":"error","message":"Erreur interne du serveur: ValidationError: author: Path `author` is required.","service":"user-service","timestamp":"2023-09-02 19:09:22"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 19:09:46"}
+{"level":"info","message":"Le post a bien été créé","service":"user-service","timestamp":"2023-09-02 19:09:46"}

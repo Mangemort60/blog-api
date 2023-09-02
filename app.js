@@ -4,6 +4,7 @@ const express = require('express');
 const createPost = require('./routes/post/createPost');
 const getAllPost = require('./routes/post/getAllPosts');
 const updatePost = require('./routes/post/updatePost');
+const uploadImage = require('./routes/post/uploadImage');
 const deletePost = require('./routes/post/deletePost');
 const getPost = require('./routes/post/getPost');
 const createComment = require('./routes/comment/createComment');
@@ -59,6 +60,7 @@ app.use('/api/post/update', updatePost);
 app.use('/api/post/delete', deletePost);
 app.use('/api/post', createPost);
 app.use('/api/posts', getAllPost);
+app.use('/api/post/upload', uploadImage);
 // Comment routes
 app.use('/api/comment', createComment);
 app.use('/api/comment/update', updateComment);

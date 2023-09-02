@@ -17,10 +17,6 @@ const commentSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: 'User',
   },
-  headshot: {
-    type: String,
-    required: false,
-  },
   post: {
     type: String,
     required: true,

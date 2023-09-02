@@ -11,3 +11,5 @@
 {"level":"error","message":"Token invalide","service":"user-service","timestamp":"2023-08-31 14:41:31"}
 {"level":"error","message":"Token invalide","service":"user-service","timestamp":"2023-08-31 14:49:31"}
 {"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-08-31 19:25:50"}
+{"level":"error","message":"Le token a expiré","service":"user-service","timestamp":"2023-09-02 12:44:42"}
+{"level":"error","message":"Erreur interne du serveur: ValidationError: author: Path `author` is required.","service":"user-service","timestamp":"2023-09-02 19:09:22"}

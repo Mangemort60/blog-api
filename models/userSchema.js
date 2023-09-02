@@ -24,6 +24,10 @@ const userSchema = new Schema({
     type: String,
     unique: true,
   },
+  headshot: {
+    type: String,
+    required: false,
+  },
   isAuthor: {
     type: Boolean,
     default: false,

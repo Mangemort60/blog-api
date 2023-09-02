@@ -5,11 +5,13 @@ const { Schema } = mongoose;
 const postValidationSchema = Joi.object({
   title: Joi.string().min(3).max(100).required(),
   body: Joi.string().min(20).max(10000).required(),
+  tags: Joi.string().min(3).max(15),
 });
 
 const updateValidationSchema = Joi.object({
   title: Joi.string().min(3).max(100),
   body: Joi.string().min(20).max(10000),
+  tags: Joi.string().min(3).max(15),
 });
 
 const postSchema = new Schema({
@@ -42,6 +44,7 @@ const postSchema = new Schema({
     votes: Number,
     favs: Number,
   },
+  tags: [{ type: String }],
 });
 
 const Post = mongoose.model('Post', postSchema);
