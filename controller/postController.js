@@ -63,7 +63,7 @@ const postController = {
 
       const params = {
         Bucket: 'blog.mern',
-        Key: fileName,
+        Key: `${fileName}-${Date.now()}`,
         Body: fileStream,
         ContentType: fileType,
       };
@@ -82,8 +82,8 @@ const postController = {
           return res.status(404).send('Post non trouvé');
         }
         console.log('Post trouvé.');
-
-        post.img = uploadResult.Location;
+        const imageUrl = `https://${params.Bucket}.s3.eu-west-3.amazonaws.com/${params.Key}`;
+        post.img = imageUrl;
         await post.save();
         console.log('Image URL sauvegardée dans le post.');
 

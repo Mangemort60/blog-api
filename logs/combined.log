@@ -165,3 +165,11 @@
 {"level":"error","message":"Erreur interne du serveur: ValidationError: author: Path `author` is required.","service":"user-service","timestamp":"2023-09-02 19:09:22"}
 {"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 19:09:46"}
 {"level":"info","message":"Le post a bien été créé","service":"user-service","timestamp":"2023-09-02 19:09:46"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 23:10:51"}
+{"level":"info","message":"Le post a bien été créé","service":"user-service","timestamp":"2023-09-02 23:10:51"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 23:12:06"}
+{"level":"info","message":"Le post a bien été créé","service":"user-service","timestamp":"2023-09-02 23:12:06"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-02 23:12:55"}
+{"level":"info","message":"Le post a bien été créé","service":"user-service","timestamp":"2023-09-02 23:12:55"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64ef73185959a5876284af48","service":"user-service","timestamp":"2023-09-03 01:00:20"}
+{"level":"info","message":"Le post a bien été créé","service":"user-service","timestamp":"2023-09-03 01:00:20"}

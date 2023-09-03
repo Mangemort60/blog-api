@@ -26,6 +26,7 @@ const postSchema = new Schema({
   img: {
     type: String, // Stocker l'URL de l'image dans S3
     required: false,
+    default: null,
   },
   author: {
     type: Schema.Types.ObjectId,
