@@ -5,17 +5,23 @@ const { Schema } = mongoose;
 const postValidationSchema = Joi.object({
   title: Joi.string().min(3).max(100).required(),
   body: Joi.string().min(20).max(10000).required(),
+  intro: Joi.string().min(20).max(200).required(),
   tags: Joi.string().min(3).max(15),
 });
 
 const updateValidationSchema = Joi.object({
   title: Joi.string().min(3).max(100),
   body: Joi.string().min(20).max(10000),
+  intro: Joi.string().min(20).max(200).required(),
   tags: Joi.string().min(3).max(15),
 });
 
 const postSchema = new Schema({
   title: {
+    type: String,
+    required: true,
+  },
+  intro: {
     type: String,
     required: true,
   },

@@ -25,8 +25,9 @@ const userSchema = new Schema({
     unique: true,
   },
   headshot: {
-    type: String,
+    type: String, // Stocker l'URL de l'image dans S3
     required: false,
+    default: null,
   },
   isAuthor: {
     type: Boolean,

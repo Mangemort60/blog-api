@@ -1,4 +1,4 @@
-const { MongooseError } = require('mongoose');
+const s3 = require('../config/aws-config');
 const {
   User,
   registerValidationSchema,
@@ -7,7 +7,9 @@ const {
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const logger = require('../config/logger');
-const { log } = require('winston');
+const formidable = require('formidable');
+const fs = require('fs');
+const { PutObjectCommand } = require('@aws-sdk/client-s3');
 const private_key = process.env.PRIVATE_KEY;
 
 const userController = {
@@ -39,6 +41,67 @@ const userController = {
       });
     }
   },
+
+  uploadHeadshot: async (req, res) => {
+    console.log('Début de la fonction uploadImage.');
+
+    const form = new formidable.IncomingForm();
+
+    form.parse(req, async (err, fields, files) => {
+      console.log('Formidable a terminé le parsing.');
+
+      if (err) {
+        console.log('Erreur pendant le parsing: ', err);
+        return res.status(400).json({ error: err.message });
+      }
+
+      const fileName = files.img[0].originalFilename;
+      const fileType = files.img[0].mimetype;
+      console.log(`Nom de fichier: ${fileName}, Type de fichier: ${fileType}`);
+
+      const fileStream = fs.createReadStream(files.img[0].filepath);
+      console.log('Flux de fichier créé.');
+
+      const params = {
+        Bucket: 'blog.mern',
+        Key: `${fileName}-${Date.now()}`,
+        Body: fileStream,
+        ContentType: fileType,
+      };
+
+      try {
+        console.log("Tentative d'upload sur S3.");
+        const uploadResult = await s3.send(new PutObjectCommand(params));
+        console.log('Upload réussi. Résultat: ', uploadResult);
+
+        const userId = req.params.id;
+        console.log(`Recherche du user avec l'ID: ${userId}`);
+
+        const user = await User.findById(userId);
+        if (!user) {
+          console.log('User non trouvé.');
+          return res.status(404).send('User non trouvé');
+        }
+        console.log('Post trouvé.');
+        const imageUrl = `https://${params.Bucket}.s3.eu-west-3.amazonaws.com/${params.Key}`;
+        user.headshot = imageUrl;
+        await user.save();
+        console.log('Image URL sauvegardée dans le post.');
+
+        res.send({
+          message: 'Upload réussi',
+          imageUrl: uploadResult.Location,
+        });
+      } catch (error) {
+        console.log(
+          "Erreur pendant l'upload ou la sauvegarde du post: ",
+          error
+        );
+        res.status(500).json(error);
+      }
+    });
+  },
+
   deleteUser: async (req, res) => {
     try {
       const userIdToDelete = req.params.id;
@@ -103,9 +166,11 @@ const userController = {
         expiresIn: '24h',
       });
       logger.info(`Utilisateur ${user.email} connecté avec succès`);
-      return res
-        .status(200)
-        .json({ message: `${user.email} est bien connecté`, token });
+      return res.status(200).json({
+        message: `${user.email} est bien connecté`,
+        token,
+        userId: user.id,
+      });
     } catch (error) {
       console.log(error);
       logger.error("Erreur lors de la connexion d'un utilisateur");
