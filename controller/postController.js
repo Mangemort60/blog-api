@@ -121,7 +121,7 @@ const postController = {
     try {
       const postId = req.params.id;
       console.log(postId);
-      const post = await Post.findById(postId);
+      const post = await Post.findById(postId).populate('author');
       if (!post) {
         logger.warn(`Post ID ${postId} introuvable`);
         return res
@@ -131,9 +131,7 @@ const postController = {
 
       logger.info(`Récupération du post ID ${postId} réussie`);
 
-      res
-        .status(201)
-        .json({ message: 'le post a bien été récupéré', data: post });
+      res.status(201).json({ message: 'le post a bien été récupéré', post });
     } catch (error) {
       logger.error(
         `Erreur lors de la récupération du post ID ${postId} : ${error}`

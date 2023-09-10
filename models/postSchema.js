@@ -49,7 +49,6 @@ const postSchema = new Schema({
   hidden: Boolean,
   meta: {
     votes: Number,
-    favs: Number,
   },
   tags: [{ type: String }],
 });
