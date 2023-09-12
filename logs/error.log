@@ -14,3 +14,8 @@
 {"level":"error","message":"Le token a expiré","service":"user-service","timestamp":"2023-09-02 12:44:42"}
 {"level":"error","message":"Erreur interne du serveur: ValidationError: author: Path `author` is required.","service":"user-service","timestamp":"2023-09-02 19:09:22"}
 {"level":"error","message":"Le token a expiré","service":"user-service","timestamp":"2023-09-07 12:15:31"}
+{"level":"error","message":"Le token a expiré","service":"user-service","timestamp":"2023-09-12 14:31:04"}
+{"level":"error","message":"Erreur interne du serveur: ReferenceError: commentToDelete is not defined","service":"user-service","timestamp":"2023-09-12 14:57:38"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-12 18:01:41"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-12 18:02:47"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-12 18:04:44"}

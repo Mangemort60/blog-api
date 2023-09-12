@@ -134,6 +134,31 @@ const commentController = {
       });
     }
   },
+
+  getCommentByPost: async (req, res) => {
+    try {
+      const postId = req.params.id;
+      const postComments = await Comment.find({ post: postId }).populate(
+        'author'
+      );
+      if (postComments.length === 0) {
+        logger.warn(`Commentaires avec un postID ${postId} introuvable`);
+        return res.status(404).json({
+          message: 'aucun commentaire trouvé',
+        });
+      }
+      return res.status(200).json({
+        message: 'commentaires trouvés',
+        postComments,
+      });
+    } catch (error) {
+      logger.error(`Erreur interne du serveur: ${error}`);
+      res.status(500).json({
+        message: 'Une erreur est survenue, veuillez essayer ultérieurement',
+        error,
+      });
+    }
+  },
 };
 
 module.exports = commentController;

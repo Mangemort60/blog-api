@@ -9,6 +9,7 @@ const deletePost = require('./routes/post/deletePost');
 const getPost = require('./routes/post/getPost');
 const createComment = require('./routes/comment/createComment');
 const updateComment = require('./routes/comment/updateComment');
+const getCommentByPost = require('./routes/comment/getCommentByPost');
 const register = require('./routes/user/register');
 const deleteUser = require('./routes/user/deleteUser');
 const updateUser = require('./routes/user/updateUser');
@@ -66,6 +67,7 @@ app.use('/api/post/upload', uploadImage);
 app.use('/api/comment', createComment);
 app.use('/api/comment/update', updateComment);
 app.use('/api/comment/delete', deleteComment);
+app.use('/api/comment/post', getCommentByPost);
 // User routes
 app.use('/api/user', register);
 app.use('/api/user/delete', deleteUser);

@@ -3,12 +3,12 @@ const Joi = require('joi');
 const { Schema } = mongoose;
 
 const postValidationSchema = Joi.object({
-  body: Joi.string().min(100).max(10000).required(),
+  body: Joi.string().min(3).max(10000).required(),
   post: Joi.string().required(),
 });
 
 const updateValidationSchema = Joi.object({
-  body: Joi.string().min(100).max(10000),
+  body: Joi.string().min(3).max(10000),
 });
 
 const commentSchema = new Schema({
