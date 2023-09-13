@@ -10,9 +10,30 @@ const logger = require('../config/logger');
 const formidable = require('formidable');
 const fs = require('fs');
 const { PutObjectCommand } = require('@aws-sdk/client-s3');
+const { log } = require('console');
 const private_key = process.env.PRIVATE_KEY;
 
 const userController = {
+  getUser: async (req, res) => {
+    try {
+      const userId = req.params.id;
+      if (!userId) {
+        console.log('User non trouvé.');
+        return res.status(404).send('User non trouvé');
+      }
+      const user = await User.findById(userId).populate('post');
+
+      logger.info(`Utilisateur ${user} récupéré avec succès`);
+      return res.status(200).json({ message: 'User récupéré', user });
+    } catch (error) {
+      logger.error("Erreur lors de la récupération d'un utilisateur");
+      console.log(error);
+      res.status(500).json({
+        message: 'Une erreur est survenue, veuillez essayer ultérieurement',
+        error,
+      });
+    }
+  },
   register: async (req, res) => {
     try {
       const { error } = registerValidationSchema.validate(req.body, {
@@ -169,7 +190,7 @@ const userController = {
       return res.status(200).json({
         message: `${user.email} est bien connecté`,
         token,
-        userId: user.id,
+        user,
       });
     } catch (error) {
       console.log(error);

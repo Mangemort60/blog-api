@@ -2071,3 +2071,279 @@
 {"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:03:39"}
 {"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:03:39"}
 {"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-12 18:04:44"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-12 18:09:42"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:09:42"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-12 18:09:42"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:09:42"}
+{"level":"error","message":"Token invalide","service":"user-service","timestamp":"2023-09-12 18:13:47"}
+{"level":"error","message":"Token invalide","service":"user-service","timestamp":"2023-09-12 18:14:11"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:14:30"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-12 18:14:30"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:14:30"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-12 18:14:30"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64fc39110e8b481d915c5837","service":"user-service","timestamp":"2023-09-12 18:16:15"}
+{"level":"warn","message":"Échec de validation: \"body\" is required","service":"user-service","timestamp":"2023-09-12 18:16:15"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64fc39110e8b481d915c5837","service":"user-service","timestamp":"2023-09-12 18:16:46"}
+{"level":"warn","message":"Échec de validation: \"body\" must be a string","service":"user-service","timestamp":"2023-09-12 18:16:46"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64fc39110e8b481d915c5837","service":"user-service","timestamp":"2023-09-12 18:17:35"}
+{"level":"warn","message":"Échec de validation: \"body\" must be a string","service":"user-service","timestamp":"2023-09-12 18:17:35"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64fc39110e8b481d915c5837","service":"user-service","timestamp":"2023-09-12 18:18:10"}
+{"level":"info","message":"Nouveau commentaire créé","service":"user-service","timestamp":"2023-09-12 18:18:10"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-12 18:18:18"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-12 18:18:18"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:18:18"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:18:18"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64fc39110e8b481d915c5837","service":"user-service","timestamp":"2023-09-12 18:24:05"}
+{"level":"info","message":"Nouveau commentaire créé","service":"user-service","timestamp":"2023-09-12 18:24:05"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-12 18:26:33"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:26:33"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-12 18:26:33"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:26:33"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-12 18:39:13"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:39:13"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-12 18:39:13"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:39:13"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-12 18:40:08"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:40:08"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-12 18:40:08"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:40:08"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:41:13"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:41:13"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-12 18:41:15"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-12 18:41:15"}
+{"level":"warn","message":"Commentaires avec un postID 64faeed9bcb255b8748ed035 introuvable","service":"user-service","timestamp":"2023-09-12 18:41:24"}
+{"level":"warn","message":"Commentaires avec un postID 64faeed9bcb255b8748ed035 introuvable","service":"user-service","timestamp":"2023-09-12 18:41:24"}
+{"level":"info","message":"Récupération du post ID 64faeed9bcb255b8748ed035 réussie","service":"user-service","timestamp":"2023-09-12 18:41:24"}
+{"level":"info","message":"Récupération du post ID 64faeed9bcb255b8748ed035 réussie","service":"user-service","timestamp":"2023-09-12 18:41:24"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 64fc39110e8b481d915c5837","service":"user-service","timestamp":"2023-09-12 18:41:52"}
+{"level":"info","message":"Nouveau commentaire créé","service":"user-service","timestamp":"2023-09-12 18:41:52"}
+{"level":"info","message":"Récupération du post ID 64faeed9bcb255b8748ed035 réussie","service":"user-service","timestamp":"2023-09-12 18:41:57"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:41:57"}
+{"level":"info","message":"Récupération du post ID 64faeed9bcb255b8748ed035 réussie","service":"user-service","timestamp":"2023-09-12 18:41:57"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:41:57"}
+{"level":"info","message":"Récupération du post ID 64faeed9bcb255b8748ed035 réussie","service":"user-service","timestamp":"2023-09-12 18:55:20"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:55:21"}
+{"level":"info","message":"Récupération du post ID 64faeed9bcb255b8748ed035 réussie","service":"user-service","timestamp":"2023-09-12 18:55:21"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 18:55:21"}
+{"level":"info","message":"Récupération du post ID 64faeed9bcb255b8748ed035 réussie","service":"user-service","timestamp":"2023-09-12 19:11:50"}
+{"level":"info","message":"Récupération du post ID 64faeed9bcb255b8748ed035 réussie","service":"user-service","timestamp":"2023-09-12 19:11:50"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 19:11:50"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 19:11:50"}
+{"level":"info","message":"Récupération du post ID 64faeed9bcb255b8748ed035 réussie","service":"user-service","timestamp":"2023-09-12 19:15:30"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 19:15:30"}
+{"level":"info","message":"Récupération du post ID 64faeed9bcb255b8748ed035 réussie","service":"user-service","timestamp":"2023-09-12 19:15:30"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-12 19:15:30"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-12 19:16:38"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-12 19:16:38"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 11:44:57"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 11:44:57"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 11:45:14"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 11:45:14"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 11:54:36"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 11:54:36"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 11:54:36"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 11:54:36"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 11:55:13"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 11:55:13"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 11:55:13"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 11:55:13"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 11:56:01"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 11:56:01"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 11:56:01"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 11:56:01"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 11:56:22"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 11:56:22"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 11:56:22"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 11:56:22"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 12:01:53"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 12:01:53"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 12:01:53"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 12:01:53"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 14:26:09"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 14:26:09"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 14:26:09"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 14:26:09"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 15:26:07"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 15:26:28"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 15:26:28"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 15:26:28"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 15:26:31"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-09-13 15:54:30"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-09-13 15:55:17"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-09-13 15:55:27"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-09-13 15:56:05"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64ef73185959a5876284af48\"),\n  email: 'snake@gmail.com',\n  password: '$2b$10$XnjwwsQGjctlVc3eSyLl2.2.DoDKwk3AYMNjvMu0kXzndQKmfyJry',\n  pseudo: 'snake',\n  isAuthor: true,\n  isAdmin: true,\n  post: [\n    {\n      _id: new ObjectId(\"64faeceebcb255b8748ed027\"),\n      title: 'un titre',\n      intro: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore officiis magni quia porro tempore voluptas nulla ducimus fugit delectus voluptates?',\n      body: ' nouveau post nouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau post',\n      img: null,\n      author: new ObjectId(\"64ef73185959a5876284af48\"),\n      comment: [],\n      tags: [],\n      date: 2023-09-08T09:44:14.793Z,\n      __v: 0\n    },\n    {\n      _id: new ObjectId(\"64faeecabcb255b8748ed02c\"),\n      title: 'un titre 1',\n      intro: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore officiis magni quia porro tempore voluptas nulla ducimus fugit delectus voluptates?',\n      body: ' nouveau post nouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau post',\n      img: null,\n      author: new ObjectId(\"64ef73185959a5876284af48\"),\n      comment: [],\n      tags: [],\n      date: 2023-09-08T09:52:10.864Z,\n      __v: 0\n    },\n    {\n      _id: new ObjectId(\"64faeecfbcb255b8748ed02f\"),\n      title: 'un titre 2',\n      intro: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore officiis magni quia porro tempore voluptas nulla ducimus fugit delectus voluptates?',\n      body: ' nouveau post nouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau post',\n      img: null,\n      author: new ObjectId(\"64ef73185959a5876284af48\"),\n      comment: [],\n      tags: [],\n      date: 2023-09-08T09:52:15.614Z,\n      __v: 0\n    },\n    {\n      _id: new ObjectId(\"64faeed3bcb255b8748ed032\"),\n      title: 'Le nouveau Miyazaki est là !',\n      intro: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore officiis magni quia porro tempore voluptas nulla ducimus fugit delectus voluptates?',\n      body: ' nouveau post nouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau post',\n      img: 'https://blog.mern.s3.eu-west-3.amazonaws.com/studio-ghibli.jpg-1694190764591',\n      author: new ObjectId(\"64ef73185959a5876284af48\"),\n      comment: [],\n      tags: [],\n      date: 2023-09-08T09:52:19.650Z,\n      __v: 0\n    },\n    {\n      _id: new ObjectId(\"64faeed9bcb255b8748ed035\"),\n      title: \"Comment j'ai découvert mon premier film des studio Ghibli\",\n      intro: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore officiis magni quia porro tempore voluptas nulla ducimus fugit delectus voluptates?',\n      body: ' nouveau post nouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau postnouveau post',\n      img: 'https://blog.mern.s3.eu-west-3.amazonaws.com/wp10768352-dual-screen-anime-wallpapers.jpg-1694190515002',\n      author: new ObjectId(\"64ef73185959a5876284af48\"),\n      comment: [Array],\n      tags: [],\n      date: 2023-09-08T09:52:25.870Z,\n      __v: 0\n    },\n    {\n      _id: new ObjectId(\"64faef67bcb255b8748ed03a\"),\n      title: 'Visite guidée du nouveau musée Ghibli',\n      intro: \"Si jamais vous comptez y aller un jour, voici ce qu'il faut savoir sur le nouveau parc d'attraction de Ghibli.\",\n      body: \"Devenir minuscule dans le monde des Chapardeurs, visiter la maison de Mei et Satsuki, poser avec le robot de Laputa - Le Château dans le Ciel -, ce sont les expériences immersives que vous promet le nouveau Parc Ghibli ouvert le 1er novembre 2022 près de Nagoya au Japon. IGN France l'a visité pour le plaisir et le business puisqu'on vous propose un avis en situation réelle sur une attraction touristique qui ne manquera pas d'attirer un immense flot de visiteurs internationaux.\\n\" +\n        '\\n' +\n        \"Difficile d'échapper au battage médiatique autour de l'ouverture du Parc Ghibli au sein du Expo 2005 Aichi Commemorative Park (alias Moricoro Park), dans les médias japonais comme dans le reste du monde, soit via la communication officielle de Ghibli, soit par les retours de la presse à l'issue d'une journée de présentation. Il est donc nécessaire de noter qu'IGN France a accédé au lieu avec des billets achetés personnellement et dans des conditions normales : nombreux visiteurs, files d'attentes, enfants qui hurlent, etc.\\n\" +\n        \"Pour le moment, le parc Ghibli propose trois zones - Grand Warehouse, Hill of Youth et Dondoko Forest, sur lesquelles nous allons revenir en détail. Le personnel est nombreux et dirige habilement les visiteurs pour fluidifier chaque activité - il n'y a pas d'attractions à proprement parler mais les spots pour prendre des photos pullulent - ce qui n'empêche pas les files de se former. Sauf exceptions, les attentes ne sont jamais trop longues, mais elles se multiplient ce qui peut mener à une portion conséquente de piétinement durant votre visite.\\n\" +\n        \"Ghibli's Grand Warehouse\\n\" +\n        '\\n' +\n        'La zone Grand Warehouse, totalement en intérieur, est la plus grande de toutes. On y déambule dans un labyrinthe de constructions colorées et le décor cache des mini zones bien précises.',\n      img: 'https://blog.mern.s3.eu-west-3.amazonaws.com/thesecretworldofarrietty.jpg-1694182064760',\n      author: new ObjectId(\"64ef73185959a5876284af48\"),\n      comment: [Array],\n      tags: [],\n      date: 2023-09-08T09:54:47.924Z,\n      __v: 0\n    }\n  ],\n  __v: 0,\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694180561183'\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 15:59:03"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 16:07:18"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:07:18"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:07:18"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 16:07:18"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 16:07:30"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:07:30"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 16:07:30"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:07:30"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 16:07:39"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 16:09:34"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 16:09:54"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:10:53"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:10:53"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 16:11:00"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 16:12:28"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 16:12:52"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 16:13:34"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 16:15:54"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 16:16:23"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 16:17:22"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:18:02"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:18:02"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 16:18:08"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 16:18:41"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:18:59"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:19:15"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:19:15"}
+{"level":"warn","message":"Échec de la validation lors de la tentative de connexion","service":"user-service","timestamp":"2023-09-13 16:19:22"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 16:19:26"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 16:19:30"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 16:19:30"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 16:20:05"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:37:20"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:44:40"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:44:40"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 16:44:44"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 16:45:41"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:45:41"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 16:45:41"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:45:41"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:46:20"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 16:46:20"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:46:20"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 16:46:20"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 16:46:32"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 16:46:59"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 16:46:59"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 16:48:27"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:48:27"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 16:48:27"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 16:48:27"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 16:48:43"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 16:48:45"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 16:48:45"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:08:25"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:08:25"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:08:25"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:08:25"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:08:55"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:08:55"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:08:55"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:08:55"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:13:10"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:13:10"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:13:29"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:13:29"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:13:29"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:13:29"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:13:43"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:13:43"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:13:43"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:13:43"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 17:13:51"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:14:06"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:14:06"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:14:25"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:14:25"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:14:25"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:14:25"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:14:31"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:15:17"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:15:56"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 17:16:10"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:16:15"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:16:15"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:16:34"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:16:34"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:16:34"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:16:34"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:16:50"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:17:25"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:17:28"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:17:28"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:17:28"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:17:28"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 17:18:00"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:18:54"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:19:41"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:20:41"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:21:10"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:21:12"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:21:20"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:21:21"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:21:28"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:21:28"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:22:18"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:22:41"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:23:37"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:25:38"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 17:25:46"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:26:12"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:26:12"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:26:17"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:26:17"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:26:37"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:26:37"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:26:50"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:26:50"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:28:03"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:28:03"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:28:17"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:28:17"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:28:50"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:28:50"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:28:54"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:28:54"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:29:06"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:29:06"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:30:03"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:30:03"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:31:07"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:31:07"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:31:23"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:31:23"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:31:29"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:31:29"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:31:29"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:31:29"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:31:29"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:31:29"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 17:32:06"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:32:10"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:32:10"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:33:03"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:33:03"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:33:06"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:33:07"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:33:07"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:33:07"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:33:07"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:33:07"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:33:12"}
+{"level":"info","message":"Utilisateur otacon@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-09-13 17:33:15"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:33:15"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:34:28"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:34:28"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:34:28"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:34:28"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:34:52"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:34:52"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:37:38"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:37:38"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:37:38"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:37:38"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:37:38"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:37:38"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:37:38"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:37:38"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:40:04"}
+{"level":"info","message":"Récupération du post ID 64faef67bcb255b8748ed03a réussie","service":"user-service","timestamp":"2023-09-13 17:40:04"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:40:04"}
+{"level":"info","message":"Utilisateur {\n  _id: new ObjectId(\"64fc39110e8b481d915c5837\"),\n  email: 'otacon@gmail.com',\n  password: '$2b$10$HEQVwtMyM40j2Mzh014JjewVUlxjXiFlpQW9T0QD10WpQTZ.3H14m',\n  pseudo: 'Otacon',\n  headshot: 'https://blog.mern.s3.eu-west-3.amazonaws.com/38d39365597f5884ab1f2c16007e3a18--snake-game-gear-art.jpg-1694616500673',\n  isAuthor: false,\n  isAdmin: false,\n  post: [],\n  __v: 0\n} récupéré avec succès","service":"user-service","timestamp":"2023-09-13 17:40:04"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:40:04"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-09-13 17:40:04"}

@@ -19,3 +19,9 @@
 {"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-12 18:01:41"}
 {"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-12 18:02:47"}
 {"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-12 18:04:44"}
+{"level":"error","message":"Token invalide","service":"user-service","timestamp":"2023-09-12 18:13:47"}
+{"level":"error","message":"Token invalide","service":"user-service","timestamp":"2023-09-12 18:14:11"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-09-13 15:54:30"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-09-13 15:55:17"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-09-13 15:55:27"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-09-13 15:56:05"}
