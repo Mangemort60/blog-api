@@ -25,7 +25,14 @@ const app = express();
 
 // middleware
 app.use(express.json());
-app.use(cors());
+app.use(
+  cors({
+    origin: 'http://localhost:5173', // remplacez par l'URL de votre front-end
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    credentials: true,
+    optionsSuccessStatus: 204,
+  })
+);
 
 //requête get pour hello world
 app.get('/', (req, res) => {

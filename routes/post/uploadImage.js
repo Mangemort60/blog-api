@@ -3,6 +3,6 @@ const express = require('express');
 const router = express.Router();
 const authenticateJWT = require('../../middleware/authenticateJwt');
 
-router.post('/:id', postController.uploadImage);
+router.post('/', postController.uploadImage);
 
 module.exports = router;

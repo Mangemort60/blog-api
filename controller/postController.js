@@ -48,7 +48,7 @@ const postController = {
 
     form.parse(req, async (err, fields, files) => {
       console.log('Formidable a terminé le parsing.');
-
+      console.log('FILES', files);
       if (err) {
         console.log('Erreur pendant le parsing: ', err);
         return res.status(400).json({ error: err.message });
@@ -73,23 +73,23 @@ const postController = {
         const uploadResult = await s3.send(new PutObjectCommand(params));
         console.log('Upload réussi. Résultat: ', uploadResult);
 
-        const postId = req.params.id;
-        console.log(`Recherche du post avec l'ID: ${postId}`);
+        // const postId = req.params.id;
+        // console.log(`Recherche du post avec l'ID: ${postId}`);
 
-        const post = await Post.findById(postId);
-        if (!post) {
-          console.log('Post non trouvé.');
-          return res.status(404).send('Post non trouvé');
-        }
-        console.log('Post trouvé.');
+        // const post = await Post.findById(postId);
+        // if (!post) {
+        //   console.log('Post non trouvé.');
+        //   return res.status(404).send('Post non trouvé');
+        // }
+        // console.log('Post trouvé.');
         const imageUrl = `https://${params.Bucket}.s3.eu-west-3.amazonaws.com/${params.Key}`;
-        post.img = imageUrl;
-        await post.save();
-        console.log('Image URL sauvegardée dans le post.');
+        // post.img = imageUrl;
+        // await post.save();
+        // console.log('Image URL sauvegardée dans le post.');
 
         res.send({
           message: 'Upload réussi',
-          imageUrl: uploadResult.Location,
+          imageUrl: imageUrl,
         });
       } catch (error) {
         console.log(
