@@ -30,7 +30,7 @@ const postController = {
 
       res.status(201).json({
         message: 'Le post a bien été crée',
-        data: createdPost,
+        createdPost,
       });
     } catch (error) {
       logger.error(`Erreur interne du serveur: ${error}`);
