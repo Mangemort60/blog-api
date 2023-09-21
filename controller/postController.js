@@ -22,9 +22,15 @@ const postController = {
         return res.status(400).send(error.message);
       }
       const createdPost = await Post.create(postData);
-      await User.findByIdAndUpdate(req.user.userId, {
+      const userToUpdate = await User.findByIdAndUpdate(req.user.userId, {
         $push: { post: createdPost },
       });
+      if (!userToUpdate) {
+        logger.warn(`User ID ${req.user.userId} introuvable`);
+        return res
+          .status(404)
+          .json({ message: "L'utilisateur n'a pas été trouvé !" });
+      }
 
       logger.info('Le post a bien été créé');
 

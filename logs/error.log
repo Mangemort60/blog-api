@@ -34,3 +34,15 @@
 {"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-15 16:19:23"}
 {"level":"error","message":"Erreur interne du serveur: ValidationError: author: Path `author` is required.","service":"user-service","timestamp":"2023-09-15 16:20:02"}
 {"level":"error","message":"Erreur interne du serveur: ValidationError: author: Path `author` is required.","service":"user-service","timestamp":"2023-09-15 16:20:35"}
+{"level":"error","message":"Token invalide","service":"user-service","timestamp":"2023-09-17 11:34:54"}
+{"level":"error","message":"Erreur interne du serveur: ValidationError: author: Cast to ObjectId failed for value \"{\n  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NGZjMzkxMTBlOGI0ODFkOTE1YzU4MzciLCJpYXQiOjE2OTQ5NDI4MzUsImV4cCI6MTY5NTAyOTIzNX0.BT7GSVwtY4Jk0YaqAA5uPgPkNyDimZQh-7W4QV46hAs',\n  userId: '64fc39110e8b481d915c5837'\n}\" (type Object) at path \"author\" because of \"BSONError\"","service":"user-service","timestamp":"2023-09-17 11:36:37"}
+{"level":"error","message":"Erreur interne du serveur: ValidationError: author: Cast to ObjectId failed for value \"{\n  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NGZjMzkxMTBlOGI0ODFkOTE1YzU4MzciLCJpYXQiOjE2OTQ5NDI4MzUsImV4cCI6MTY5NTAyOTIzNX0.BT7GSVwtY4Jk0YaqAA5uPgPkNyDimZQh-7W4QV46hAs',\n  userId: '64fc39110e8b481d915c5837'\n}\" (type Object) at path \"author\" because of \"BSONError\"","service":"user-service","timestamp":"2023-09-17 11:37:16"}
+{"level":"error","message":"Erreur interne du serveur: ValidationError: author: Cast to ObjectId failed for value \"[object Object]\" (type string) at path \"author\" because of \"BSONError\"","service":"user-service","timestamp":"2023-09-17 11:38:20"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-18 18:28:07"}
+{"level":"error","message":"Token invalide","service":"user-service","timestamp":"2023-09-18 21:21:56"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-18 21:31:09"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-18 21:33:53"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-18 21:34:15"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-19 23:38:51"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-19 23:40:55"}
+{"level":"error","message":"Le token a expiré","service":"user-service","timestamp":"2023-09-21 10:03:29"}

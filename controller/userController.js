@@ -34,6 +34,21 @@ const userController = {
       });
     }
   },
+
+  getAllUsers: async (req, res) => {
+    try {
+      const users = await User.find();
+      logger.info(`Utilisateurs récupérés avec succès`);
+      return res.status(200).json({ message: 'Users récupéré', users });
+    } catch (error) {
+      logger.error('Erreur lors de la récupération des utilisateurs');
+      console.log(error);
+      res.status(500).json({
+        message: 'Une erreur est survenue, veuillez essayer ultérieurement',
+        error,
+      });
+    }
+  },
   register: async (req, res) => {
     try {
       const { error } = registerValidationSchema.validate(req.body, {

@@ -5,6 +5,6 @@ const authenticateJWT = require('../../middleware/authenticateJwt');
 
 // ici middleware si besoin //
 
-router.post('/:id', authenticateJWT, postController.updatePost);
+router.put('/:id', authenticateJWT, postController.updatePost);
 
 module.exports = router;
