@@ -46,3 +46,21 @@
 {"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-19 23:38:51"}
 {"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-19 23:40:55"}
 {"level":"error","message":"Le token a expiré","service":"user-service","timestamp":"2023-09-21 10:03:29"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-21 15:29:45"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-21 21:24:12"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-21 21:24:15"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-21 21:25:13"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-21 21:25:58"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-21 21:26:01"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-21 21:26:16"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-21 21:26:27"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-21 21:26:31"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-21 21:26:57"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-21 21:30:15"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-21 21:31:48"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-21 21:31:56"}
+{"level":"error","message":"Erreur interne du serveur: CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Comment\"","service":"user-service","timestamp":"2023-09-23 18:29:54"}
+{"level":"error","message":"Erreur interne du serveur: CastError: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Comment\"","service":"user-service","timestamp":"2023-09-23 18:33:35"}
+{"level":"error","message":"Erreur interne du serveur: CastError: Cast to ObjectId failed for value \"Promise { <pending> }\" (type Promise) at path \"comment\" because of \"BSONError\"","service":"user-service","timestamp":"2023-09-24 11:28:13"}
+{"level":"error","message":"Erreur interne du serveur: CastError: Cast to ObjectId failed for value \"Promise { <pending> }\" (type Promise) at path \"comment\" because of \"BSONError\"","service":"user-service","timestamp":"2023-09-24 11:30:03"}
+{"level":"error","message":"Erreur interne du serveur: ReferenceError: User is not defined","service":"user-service","timestamp":"2023-09-24 11:41:16"}

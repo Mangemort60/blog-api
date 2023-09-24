@@ -127,7 +127,9 @@ const postController = {
     try {
       const postId = req.params.id;
       console.log(postId);
-      const post = await Post.findById(postId).populate('author');
+      const post = await Post.findById(postId)
+        .populate('author')
+        .populate('comment');
       if (!post) {
         logger.warn(`Post ID ${postId} introuvable`);
         return res

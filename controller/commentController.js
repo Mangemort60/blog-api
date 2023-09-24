@@ -5,6 +5,7 @@ const {
 } = require('../models/commentSchema');
 const { Post } = require('../models/postSchema');
 const logger = require('../config/logger');
+const { User } = require('../models/userSchema');
 
 const commentController = {
   createComment: async (req, res) => {
@@ -18,7 +19,10 @@ const commentController = {
           message: "le poste que vous souhaitez commenter n'existe pas",
         });
       }
-      const newComment = { ...req.body, author: req.user.userId };
+
+      const user = await User.findById(req.user.userId);
+      const newComment = { ...req.body, author: user };
+
       const { error } = postValidationSchema.validate(req.body);
 
       if (error) {
@@ -38,7 +42,7 @@ const commentController = {
       if (updatedPost) {
         return res.status(201).json({
           message: 'le commentaire a bien été crée',
-          data: createdComment,
+          createdComment,
         });
       }
     } catch (error) {
