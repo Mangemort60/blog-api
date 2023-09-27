@@ -8,7 +8,7 @@ const { User } = require('../models/userSchema');
 const logger = require('../config/logger');
 const formidable = require('formidable');
 const fs = require('fs');
-const { PutObjectCommand } = require('@aws-sdk/client-s3');
+const { PutObjectCommand, DeleteObjectCommand } = require('@aws-sdk/client-s3');
 
 const postController = {
   createPost: async (req, res) => {
@@ -78,21 +78,7 @@ const postController = {
         console.log("Tentative d'upload sur S3.");
         const uploadResult = await s3.send(new PutObjectCommand(params));
         console.log('Upload réussi. Résultat: ', uploadResult);
-
-        // const postId = req.params.id;
-        // console.log(`Recherche du post avec l'ID: ${postId}`);
-
-        // const post = await Post.findById(postId);
-        // if (!post) {
-        //   console.log('Post non trouvé.');
-        //   return res.status(404).send('Post non trouvé');
-        // }
-        // console.log('Post trouvé.');
         const imageUrl = `https://${params.Bucket}.s3.eu-west-3.amazonaws.com/${params.Key}`;
-        // post.img = imageUrl;
-        // await post.save();
-        // console.log('Image URL sauvegardée dans le post.');
-
         res.send({
           message: 'Upload réussi',
           imageUrl: imageUrl,
@@ -209,7 +195,22 @@ const postController = {
           .status(404)
           .json({ mesage: "vous n'êtes pas autorisé à supprimer ce post" });
       }
+
+      const startIndex =
+        post.img.indexOf('https://blog.mern.s3.eu-west-3.amazonaws.com/') +
+        'https://blog.mern.s3.eu-west-3.amazonaws.com/'.length;
+      const key = post.img.substring(startIndex);
+
+      const params = {
+        Bucket: 'blog.mern',
+        Key: key,
+      };
+
+      console.log('Image to delete', key);
+      const deletedImg = await s3.deleteObject(params);
       const deletedPost = await Post.findByIdAndDelete(postId);
+      console.log('Image deleted', deletedImg);
+
       await User.findByIdAndUpdate(deletedPost.author, {
         $pull: { posts: postId },
       });
