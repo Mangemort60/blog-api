@@ -109,7 +109,7 @@ const postController = {
 
   getAllPost: async (req, res) => {
     try {
-      const posts = await Post.find().populate('author');
+      const posts = await Post.find().sort({ date: -1 }).populate('author');
       logger.info('Récupération de tous les posts réussie');
       res.status(200).json(posts);
     } catch (error) {

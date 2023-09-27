@@ -64,3 +64,15 @@
 {"level":"error","message":"Erreur interne du serveur: CastError: Cast to ObjectId failed for value \"Promise { <pending> }\" (type Promise) at path \"comment\" because of \"BSONError\"","service":"user-service","timestamp":"2023-09-24 11:28:13"}
 {"level":"error","message":"Erreur interne du serveur: CastError: Cast to ObjectId failed for value \"Promise { <pending> }\" (type Promise) at path \"comment\" because of \"BSONError\"","service":"user-service","timestamp":"2023-09-24 11:30:03"}
 {"level":"error","message":"Erreur interne du serveur: ReferenceError: User is not defined","service":"user-service","timestamp":"2023-09-24 11:41:16"}
+{"level":"error","message":"Erreur lors de la création d'un nouvel utilisateur","service":"user-service","timestamp":"2023-09-27 13:52:36"}
+{"level":"error","message":"Erreur lors de la création d'un nouvel utilisateur","service":"user-service","timestamp":"2023-09-27 13:53:33"}
+{"level":"error","message":"Erreur lors de la création d'un nouvel utilisateur","service":"user-service","timestamp":"2023-09-27 13:54:12"}
+{"level":"error","message":"Erreur lors de la création d'un nouvel utilisateur","service":"user-service","timestamp":"2023-09-27 13:55:12"}
+{"level":"error","message":"Erreur lors de la création d'un nouvel utilisateur","service":"user-service","timestamp":"2023-09-27 14:08:22"}
+{"level":"error","message":"Erreur lors de la création d'un nouvel utilisateur","service":"user-service","timestamp":"2023-09-27 14:10:00"}
+{"level":"error","message":"Erreur lors de la création d'un nouvel utilisateur","service":"user-service","timestamp":"2023-09-27 14:10:35"}
+{"level":"error","message":"Erreur lors de la création d'un nouvel utilisateur","service":"user-service","timestamp":"2023-09-27 14:12:37"}
+{"level":"error","message":"Erreur lors de la création d'un nouvel utilisateur","service":"user-service","timestamp":"2023-09-27 14:14:25"}
+{"level":"error","message":"Erreur lors de la création d'un nouvel utilisateur","service":"user-service","timestamp":"2023-09-27 14:22:02"}
+{"level":"error","message":"Erreur lors de la création d'un nouvel utilisateur","service":"user-service","timestamp":"2023-09-27 14:37:54"}
+{"level":"error","message":"Erreur lors de la création d'un nouvel utilisateur","service":"user-service","timestamp":"2023-09-27 14:38:12"}

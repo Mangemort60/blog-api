@@ -60,6 +60,15 @@ const userController = {
         );
         return res.status(400).send(error.message);
       }
+      const checkUserEmail = await User.findOne({ email: req.body.email });
+      const checkUserPseudo = await User.findOne({ pseudo: req.body.pseudo });
+
+      if (checkUserEmail || checkUserPseudo) {
+        logger.info(`l'email ou le pseudo existent déjà`);
+        return res
+          .status(409)
+          .json({ message: `l'email ou le pseudo existent déjà` });
+      }
       const password = req.body.password;
       const hash = await bcrypt.hash(password, 10);
       const newUser = { ...req.body, password: hash };
@@ -70,6 +79,7 @@ const userController = {
         message: `user ${createdUser.email} a bien été crée`,
       });
     } catch (error) {
+      console.log(error);
       logger.error("Erreur lors de la création d'un nouvel utilisateur");
       res.status(500).json({
         message: 'Une erreur est survenue, veuillez essayer ultérieurement',
@@ -187,7 +197,7 @@ const userController = {
       if (!user) {
         logger.warn('Tentative de connexion avec un e-mail non enregistré');
         return res
-          .status(404)
+          .status(401)
           .json({ message: "l'utilisateur n'a pas été trouvé" });
       }
       const checkPassword = await bcrypt.compare(
