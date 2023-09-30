@@ -76,3 +76,4 @@
 {"level":"error","message":"Erreur lors de la création d'un nouvel utilisateur","service":"user-service","timestamp":"2023-09-27 14:22:02"}
 {"level":"error","message":"Erreur lors de la création d'un nouvel utilisateur","service":"user-service","timestamp":"2023-09-27 14:37:54"}
 {"level":"error","message":"Erreur lors de la création d'un nouvel utilisateur","service":"user-service","timestamp":"2023-09-27 14:38:12"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-27 20:35:06"}

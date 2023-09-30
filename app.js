@@ -19,7 +19,11 @@ const uploadHeadshot = require('./routes/user/uploadHeadshot');
 const deleteComment = require('./routes/comment/deleteComment');
 const login = require('./routes/user/login');
 const cors = require('cors');
-const { log } = require('winston');
+const google = require('googleapis');
+const dotenv = require('dotenv');
+const { OAuth2Client } = require('google-auth-library');
+
+dotenv.config();
 
 // instance d'express
 const app = express();
@@ -57,6 +61,32 @@ async function main() {
 }
 
 main().catch((error) => console.error(error));
+
+// google api
+const oAuth2Client = new OAuth2Client({
+  clientId: process.env.GOOGLE_CLIENT_ID,
+  clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+  redirectUri: process.env.REDIRECT_URL,
+  scopes: [
+    'https://www.googleapis.com/auth/calendar',
+    'https://www.googleapis.com/auth/calendar.events',
+  ],
+});
+
+app.get('/google', (req, res) => {
+  const url = oAuth2Client.generateAuthUrl({
+    access_type: 'offline',
+    scope: [
+      'https://www.googleapis.com/auth/calendar',
+      'https://www.googleapis.com/auth/calendar.events',
+    ],
+  });
+  res.redirect(url);
+});
+
+app.get('/google/redirect', (req, res) => {
+  console.log("it's working !");
+});
 
 // Post routes
 app.use('/api/post/get', getPost);
