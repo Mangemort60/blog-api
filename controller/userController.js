@@ -129,6 +129,23 @@ const userController = {
           return res.status(404).send('User non trouvé');
         }
         console.log('Post trouvé.');
+
+        if (user.headshot) {
+          const startIndex =
+            user.headshot.indexOf(
+              'https://blog.mern.s3.eu-west-3.amazonaws.com/'
+            ) + 'https://blog.mern.s3.eu-west-3.amazonaws.com/'.length;
+          const key = user.headshot.substring(startIndex);
+
+          const deleteParams = {
+            Bucket: 'blog.mern',
+            Key: key,
+          };
+
+          const deletedImg = await s3.deleteObject(deleteParams);
+          console.log('Image deleted', deletedImg);
+        }
+
         const imageUrl = `https://${params.Bucket}.s3.eu-west-3.amazonaws.com/${params.Key}`;
         user.headshot = imageUrl;
         await user.save();
