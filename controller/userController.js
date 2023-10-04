@@ -3,6 +3,7 @@ const {
   User,
   registerValidationSchema,
   loginValidationSchema,
+  profilValidationSchema,
 } = require('../models/userSchema');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
@@ -245,6 +246,15 @@ const userController = {
   },
   updateUser: async (req, res) => {
     try {
+      const { error } = profilValidationSchema.validate(req.body, {
+        allowUnknown: true,
+      });
+      if (error) {
+        logger.warn('Échec de la validation lors de la création de la bio');
+        return res.status(400).send(error.message);
+        console.log(error);
+      }
+
       const userIdToUpdate = req.params.id;
       const userAdminId = req.user.userId;
       const newData = req.body;
@@ -268,7 +278,7 @@ const userController = {
         );
         res.status(200).json({
           message: "l'utilisateur a bien été mis à jour",
-          data: updatedUser,
+          updatedUser,
         });
       }
     } catch (error) {

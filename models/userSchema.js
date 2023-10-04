@@ -14,6 +14,10 @@ const loginValidationSchema = Joi.object({
   password: Joi.string().min(6).alphanum().required(),
 });
 
+const profilValidationSchema = Joi.object({
+  bio: Joi.string().max(500),
+});
+
 const userSchema = new Schema({
   email: {
     type: String,
@@ -23,6 +27,10 @@ const userSchema = new Schema({
   pseudo: {
     type: String,
     unique: true,
+  },
+  bio: {
+    type: String,
+    required: false,
   },
   headshot: {
     type: String, // Stocker l'URL de l'image dans S3
@@ -55,4 +63,5 @@ module.exports = {
   User,
   registerValidationSchema,
   loginValidationSchema,
+  profilValidationSchema,
 };

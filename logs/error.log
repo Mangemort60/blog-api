@@ -77,3 +77,9 @@
 {"level":"error","message":"Erreur lors de la création d'un nouvel utilisateur","service":"user-service","timestamp":"2023-09-27 14:37:54"}
 {"level":"error","message":"Erreur lors de la création d'un nouvel utilisateur","service":"user-service","timestamp":"2023-09-27 14:38:12"}
 {"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-09-27 20:35:06"}
+{"level":"error","message":"Le token a expiré","service":"user-service","timestamp":"2023-10-03 12:23:10"}
+{"level":"error","message":"Token invalide","service":"user-service","timestamp":"2023-10-03 12:23:34"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-10-04 16:22:13"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-10-04 16:22:40"}
+{"level":"error","message":"Erreur lors de la connexion d'un utilisateur","service":"user-service","timestamp":"2023-10-04 16:27:47"}
+{"level":"error","message":"Erreur lors de la connexion d'un utilisateur","service":"user-service","timestamp":"2023-10-04 16:27:48"}
