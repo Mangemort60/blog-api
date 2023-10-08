@@ -53,7 +53,7 @@ async function main() {
     return startServer(process.env.PORT ?? 3000);
   }
   console.log('production env');
-  console.log(process.env.PORT);
+  console.log('process env port heroku', process.env.PORT);
 }
 
 main().catch((error) => console.error(error));
