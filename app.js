@@ -27,6 +27,12 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+//requête get pour hello world
+
+app.get('/', (req, res) => {
+  res.json('Hello Express ');
+});
+
 const isDev = () => process.env.NODE_ENV === 'development';
 
 async function connectDb(url) {
@@ -51,12 +57,6 @@ async function main() {
 }
 
 main().catch((error) => console.error(error));
-
-//requête get pour hello world
-
-app.get('/', (req, res) => {
-  res.json('Hello Express ');
-});
 
 // Post routes
 app.use('/api/post/get', getPost);
