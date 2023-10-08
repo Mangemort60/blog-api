@@ -51,9 +51,11 @@ async function main() {
   if (isDev()) {
     await connectDb('mongodb://127.0.0.1:27017/blog');
     return startServer(process.env.PORT ?? 3000);
+  } else {
+    console.log('production env');
+    console.log('process env port heroku', process.env.PORT);
   }
-  console.log('production env');
-  console.log('process env port heroku', process.env.PORT);
+  return startServer(process.env.PORT ?? 3000);
 }
 
 main().catch((error) => console.error(error));
