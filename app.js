@@ -28,8 +28,9 @@ app.use(express.json());
 app.use(cors());
 
 //requête get pour hello world
+
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.json('Hello Express ');
 });
 
 const isDev = () => process.env.NODE_ENV === 'development';
