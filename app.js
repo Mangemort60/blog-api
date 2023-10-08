@@ -47,7 +47,7 @@ const startServer = (port) =>
 async function main() {
   if (isDev()) {
     await connectDb('mongodb://127.0.0.1:27017/blog');
-    return startServer(process.env.PORT ?? 3000);
+    return startServer(process.env.PORT || 3000);
   }
   console.log('production env');
 }
@@ -57,6 +57,7 @@ main().catch((error) => console.error(error));
 app.get('/', (req, res) => {
   res.json('Hello Express ');
 });
+
 // Post routes
 app.use('/api/post/get', getPost);
 app.use('/api/post/update', updatePost);
