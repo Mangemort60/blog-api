@@ -28,6 +28,9 @@ app.use(express.json());
 app.use(cors());
 
 //requête get pour hello world
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
 
 const isDev = () => process.env.NODE_ENV === 'development';
 
@@ -47,16 +50,13 @@ const startServer = (port) =>
 async function main() {
   if (isDev()) {
     await connectDb('mongodb://127.0.0.1:27017/blog');
-    return startServer(process.env.PORT || 3000);
+    return startServer(process.env.PORT ?? 3000);
   }
   console.log('production env');
+  console.log(process.env.PORT);
 }
 
 main().catch((error) => console.error(error));
-
-app.get('/', (req, res) => {
-  res.json('Hello Express ');
-});
 
 // Post routes
 app.use('/api/post/get', getPost);
