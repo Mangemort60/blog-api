@@ -15,7 +15,7 @@ const loginValidationSchema = Joi.object({
 });
 
 const profilValidationSchema = Joi.object({
-  bio: Joi.string().max(500),
+  bio: Joi.string().max(500).allow(null, ''),
 });
 
 const userSchema = new Schema({
@@ -31,6 +31,7 @@ const userSchema = new Schema({
   bio: {
     type: String,
     required: false,
+    default: null,
   },
   headshot: {
     type: String, // Stocker l'URL de l'image dans S3

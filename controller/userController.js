@@ -11,7 +11,6 @@ const logger = require('../config/logger');
 const formidable = require('formidable');
 const fs = require('fs');
 const { PutObjectCommand } = require('@aws-sdk/client-s3');
-const { log } = require('console');
 const private_key = process.env.PRIVATE_KEY;
 
 const userController = {
@@ -246,41 +245,38 @@ const userController = {
   },
   updateUser: async (req, res) => {
     try {
+      console.log('update User route ');
       const { error } = profilValidationSchema.validate(req.body, {
         allowUnknown: true,
       });
       if (error) {
         logger.warn('Échec de la validation lors de la création de la bio');
         return res.status(400).send(error.message);
-        console.log(error);
       }
 
       const userIdToUpdate = req.params.id;
-      const userAdminId = req.user.userId;
       const newData = req.body;
-
+      console.log('befor userToUpdate ');
       const userToUpdate = await User.findById(userIdToUpdate);
+      console.log('after userToUpdate ');
       if (!userToUpdate) {
+        console.log('Utilisateur non trouvé');
         logger.warn("Tentative de mise à jour d'un utilisateur inexistant");
         return res
           .status(404)
           .json({ message: "l'utilisateur n'a pas été trouvé" });
       }
 
-      const userAdmin = await User.findById(userAdminId);
-      console.log(userAdmin.isAdmin);
-
-      if (userAdmin.isAdmin) {
-        const updatedUser = await User.findByIdAndUpdate(
-          userIdToUpdate,
-          newData,
-          { new: true }
-        );
-        res.status(200).json({
-          message: "l'utilisateur a bien été mis à jour",
-          updatedUser,
-        });
-      }
+      const updatedUser = await User.findByIdAndUpdate(
+        userIdToUpdate,
+        newData,
+        { new: true }
+      );
+      console.log('Utilisateur mis à jour avec succès');
+      res.status(200).json({
+        message: "l'utilisateur a bien été mis à jour",
+        updatedUser,
+      });
     } catch (error) {
       console.log(error);
       logger.error("Erreur lors de la connexion d'un utilisateur");

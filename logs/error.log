@@ -83,3 +83,15 @@
 {"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-10-04 16:22:40"}
 {"level":"error","message":"Erreur lors de la connexion d'un utilisateur","service":"user-service","timestamp":"2023-10-04 16:27:47"}
 {"level":"error","message":"Erreur lors de la connexion d'un utilisateur","service":"user-service","timestamp":"2023-10-04 16:27:48"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-10-07 11:32:39"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-10-07 11:32:39"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-10-07 11:33:49"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-10-07 11:33:49"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-10-07 11:34:37"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-10-07 11:34:53"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-10-07 11:35:06"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-10-07 11:35:07"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-10-07 11:35:40"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-10-07 11:35:40"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-10-07 12:14:37"}
+{"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-10-07 12:14:37"}
