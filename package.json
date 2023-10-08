@@ -19,8 +19,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "SET NODE_ENV=production& node app.js",
-    "dev": "SET NODE_ENV=development& nodemon app.js"
+    "start": "SET NODE_ENV=production & node app.js",
+    "dev": "SET NODE_ENV=development & nodemon app.js"
   },
   "author": "Hafid HADDAOUI",
   "license": "ISC",
