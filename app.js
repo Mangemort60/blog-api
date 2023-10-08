@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-const isDev = () => process.env.NODE_ENV === 'development';
+const isDev = () => process.env.PORT === 'development';
 
 async function connectDb(url) {
   mongoose.connect(url, {
