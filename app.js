@@ -53,7 +53,9 @@ async function main() {
     return startServer(process.env.PORT ?? 3000);
   } else {
     console.log('production env');
-    console.log('process env port heroku', process.env.PORT);
+    await connectDb(
+      'mongodb+srv://Hafid:Vn8cUnYI2SqRBAce@cluster0youssratherapie.ecs7iqs.mongodb.net/?retryWrites=true&w=majority'
+    );
   }
   return startServer(process.env.PORT ?? 3000);
 }
