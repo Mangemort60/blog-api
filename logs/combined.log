@@ -1,0 +1,50 @@
+{"level":"info","message":"Récupération du post ID 6515a1d13f0da463f825bde2 réussie","service":"user-service","timestamp":"2023-10-08 16:35:58"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:13:18"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:13:18"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:23:30"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:23:30"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:24:07"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:24:07"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:24:21"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:24:21"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:24:51"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:24:51"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:24:56"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:24:56"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:25:05"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:25:05"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:26:04"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:26:04"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:27:23"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:27:23"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:29:16"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:29:16"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:29:47"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:29:47"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:30:43"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:30:43"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-08 19:35:09"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-10 14:59:30"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-10 14:59:30"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-10 15:02:31"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-10 15:02:49"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-10 15:06:44"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-10 15:06:44"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-10 15:13:02"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-10 15:13:13"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-10 15:13:25"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-10 15:31:30"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-10 15:31:30"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-10 15:32:16"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-10 15:32:16"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-10 15:32:34"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-10 15:32:34"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-10 15:33:03"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-10 15:33:03"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-10 15:33:47"}
+{"level":"info","message":"Récupération de tous les posts réussie","service":"user-service","timestamp":"2023-10-10 15:33:47"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-10-11 10:37:38"}
+{"level":"info","message":"Utilisateur hh@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-10-11 10:37:58"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-10-11 10:38:16"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 65146fbc9fc492a9fbd47da4","service":"user-service","timestamp":"2023-10-11 10:38:29"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 65146fbc9fc492a9fbd47da4","service":"user-service","timestamp":"2023-10-11 10:42:26"}

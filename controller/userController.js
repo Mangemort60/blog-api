@@ -133,12 +133,12 @@ const userController = {
         if (user.headshot) {
           const startIndex =
             user.headshot.indexOf(
-              'https://blog.mern.s3.eu-west-3.amazonaws.com/'
-            ) + 'https://blog.mern.s3.eu-west-3.amazonaws.com/'.length;
+              'https://youssratherapie.s3.eu-west-3.amazonaws.com/'
+            ) + 'https://youssratherapie.s3.eu-west-3.amazonaws.com/'.length;
           const key = user.headshot.substring(startIndex);
 
           const deleteParams = {
-            Bucket: 'blog.mern',
+            Bucket: 'youssratherapie',
             Key: key,
           };
 

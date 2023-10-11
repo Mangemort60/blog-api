@@ -68,7 +68,7 @@ const postController = {
       console.log('Flux de fichier créé.');
 
       const params = {
-        Bucket: 'blog.mern',
+        Bucket: 'youssratherapie',
         Key: `${fileName}-${Date.now()}`,
         Body: fileStream,
         ContentType: fileType,

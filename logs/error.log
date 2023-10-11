@@ -95,3 +95,5 @@
 {"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-10-07 11:35:40"}
 {"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-10-07 12:14:37"}
 {"level":"error","message":"Erreur lors de la récupération d'un utilisateur","service":"user-service","timestamp":"2023-10-07 12:14:37"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-10-11 10:37:38"}
+{"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-10-11 10:38:16"}
