@@ -5,7 +5,10 @@ const uniqueValidator = require('mongoose-unique-validator');
 
 const registerValidationSchema = Joi.object({
   email: Joi.string().email().required(),
-  password: Joi.string().min(6).alphanum().required(),
+  password: Joi.string()
+    .min(6)
+    .regex(/^[a-zA-Z0-9!@#$%^&*()-_+=]*$/)
+    .required(),
   pseudo: Joi.string().min(3).max(15).required(),
 });
 
