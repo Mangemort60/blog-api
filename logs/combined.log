@@ -48,3 +48,9 @@
 {"level":"error","message":"Vous n'avez pas fourni de jeton d'authentification. Ajoutez-en un dans l'en-tête de la requête.","service":"user-service","timestamp":"2023-10-11 10:38:16"}
 {"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 65146fbc9fc492a9fbd47da4","service":"user-service","timestamp":"2023-10-11 10:38:29"}
 {"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 65146fbc9fc492a9fbd47da4","service":"user-service","timestamp":"2023-10-11 10:42:26"}
+{"level":"info","message":"Récupération du post ID 6515a34d3f0da463f825be00 réussie","service":"user-service","timestamp":"2023-10-11 19:18:07"}
+{"level":"info","message":"Récupération du post ID 6515a34d3f0da463f825be00 réussie","service":"user-service","timestamp":"2023-10-11 19:18:07"}
+{"level":"info","message":"Utilisateur authentifié avec succès. ID de l'utilisateur : 65146fbc9fc492a9fbd47da4","service":"user-service","timestamp":"2023-10-11 19:24:38"}
+{"level":"info","message":"Récupération du post ID 6526e048ee4adf6df11093bc réussie","service":"user-service","timestamp":"2023-10-11 21:40:02"}
+{"level":"info","message":"Récupération du post ID 6515a34d3f0da463f825be00 réussie","service":"user-service","timestamp":"2023-10-11 21:40:24"}
+{"level":"info","message":"Utilisateur youssra@gmail.com connecté avec succès","service":"user-service","timestamp":"2023-10-12 09:45:34"}
