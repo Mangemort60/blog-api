@@ -11,7 +11,11 @@ const registerValidationSchema = Joi.object({
 
 const loginValidationSchema = Joi.object({
   email: Joi.string().email().required(),
-  password: Joi.string().min(6).alphanum().required(),
+  password: Joi.string()
+    .min(6)
+    .alphanum()
+    .regex(/^[a-zA-Z0-9!@#$%^&*()-_+=]*$/)
+    .required(),
 });
 
 const profilValidationSchema = Joi.object({
