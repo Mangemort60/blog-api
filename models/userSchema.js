@@ -9,7 +9,7 @@ const registerValidationSchema = Joi.object({
     .min(6)
     .regex(/^[a-zA-Z0-9!@#$%^&*()-_+=]*$/)
     .required(),
-  pseudo: Joi.string().min(3).max(15).required(),
+  pseudo: Joi.string().min(3).max(30).required(),
 });
 
 const loginValidationSchema = Joi.object({
